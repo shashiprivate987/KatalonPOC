@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SSTC-13202_RFPEvent_BidAnalysis_Visibility_Failure_MF_Rule_Set_No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f7e9152-2de0-4ca9-a6e6-d045081e4bb0</testCaseGuid>
+   <variable>
+      <defaultValue>'OWBAutomationUser01'</defaultValue>
+      <description></description>
+      <id>e524e2ea-7d36-4c5e-a9b8-42e099431536</id>
+      <masked>false</masked>
+      <name>NewUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'RFPTemplate02_MF_Rule_No'</defaultValue>
+      <description></description>
+      <id>b5148eee-a9d5-446e-b43c-e08916356678</id>
+      <masked>false</masked>
+      <name>templateName</name>
+   </variable>
+</TestCaseEntity>

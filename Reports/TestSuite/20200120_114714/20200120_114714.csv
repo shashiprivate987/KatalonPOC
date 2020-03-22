@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite,Chrome 63.0.3239.132,,2020-01-20 11:47:16,2020-01-20 12:03:56,16m - 39.440s,FAILED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot,Chrome 63.0.3239.132,,2020-01-20 11:47:16,2020-01-20 12:03:55,16m - 38.721s,FAILED
+"OPENCLID_LOC = ""//a[contains(@awname,'Open::AbstractDocumentDownloadIcon:itemAction')]""",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.001s,PASSED
+"UPLOADDOC_LOC = ""ASCContentFrame:excelImportAction""",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.001s,PASSED
+"EXCELIMPORT_LOC = ""ASPExcelImport:importExcelDocumentAction""",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.001s,PASSED
+"OPENDOC_LOC = ""Open::AbstractDocumentDownloadIcon:itemAction""",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.000s,PASSED
+"CONTENTITEMS_LOC = ""//table[@awname='displayGroup:tableBody']//tr[contains(@awname,'AWRefreshRegion')]""",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.000s,PASSED
+"APPENDEDAPCLINK_LOC = ""//a[@awname='0.2_PRICEPrice::PRICE:pricingInfoDisplay' and text()='View pricing conditions ']""",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.000s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.049s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.001s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.001s,PASSED
+CW = contractName + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:17,0.001s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-01-20 11:47:17,2020-01-20 11:47:41,23.778s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/a_TA..""))",Chrome 63.0.3239.132,,2020-01-20 11:47:41,2020-01-20 11:47:48,7.780s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_TestCentralPage/Test Central ACM""))",Chrome 63.0.3239.132,,2020-01-20 11:47:48,2020-01-20 11:47:56,7.418s,PASSED
+"scrollToElement(findTestObject(""Page_Ariba Spend Management/a_Create Workspace""), 3)",Chrome 63.0.3239.132,,2020-01-20 11:47:56,2020-01-20 11:47:57,1.067s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/a_Create Workspace""))",Chrome 63.0.3239.132,,2020-01-20 11:47:57,2020-01-20 11:48:04,7.515s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/input supplier cw""))",Chrome 63.0.3239.132,,2020-01-20 11:48:04,2020-01-20 11:48:12,7.663s,PASSED
+"setText(findTestObject(""Object Repository/input supplier cw""), supplier)",Chrome 63.0.3239.132,,2020-01-20 11:48:12,2020-01-20 11:48:14,2.072s,PASSED
+"setText(findTestObject(""Page_Ariba Spend Management/input_Name of Workspace__bdp8j""), CW)",Chrome 63.0.3239.132,,2020-01-20 11:48:14,2020-01-20 11:48:16,2.212s,PASSED
+"setText(findTestObject(""Page_Ariba Spend Management/input_Name of Template__x1sbod""), contractTemplate)",Chrome 63.0.3239.132,,2020-01-20 11:48:16,2020-01-20 11:48:19,2.789s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/div_Run Stager""))",Chrome 63.0.3239.132,,2020-01-20 11:48:19,2020-01-20 11:48:35,16.061s,PASSED
+try,Chrome 63.0.3239.132,,2020-01-20 11:48:35,2020-01-20 11:49:26,50.894s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-01-20 11:49:26,2020-01-20 11:49:27,1.301s,PASSED
+"scrollToElement(findTestObject(""Page_Ariba Spend Management/View_Project""), 3)",Chrome 63.0.3239.132,,2020-01-20 11:49:27,2020-01-20 11:49:28,1.073s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/View_Project""))",Chrome 63.0.3239.132,,2020-01-20 11:49:28,2020-01-20 11:49:38,9.485s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-01-20 11:49:38,2020-01-20 11:49:40,2.068s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-01-20 11:49:40,2020-01-20 11:49:41,0.793s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon""))",Chrome 63.0.3239.132,,2020-01-20 11:49:41,2020-01-20 11:49:49,7.685s,PASSED
+Thread.sleep(2),Chrome 63.0.3239.132,,2020-01-20 11:49:49,2020-01-20 11:49:49,0.005s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(OPENCLID_LOC), 2, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-01-20 11:49:49,2020-01-20 11:49:49,0.546s,PASSED
+driver = getWebDriver(),Chrome 63.0.3239.132,,2020-01-20 11:49:49,2020-01-20 11:49:49,0.000s,PASSED
+xpath(OPENCLID_LOC)).click(),Chrome 63.0.3239.132,,2020-01-20 11:49:49,2020-01-20 11:49:51,1.951s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/Page_ASPEditContentDocument/span_Excel Import""))",Chrome 63.0.3239.132,,2020-01-20 11:49:51,2020-01-20 11:50:00,9.190s,PASSED
+"uploadDocLink = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""equals"", UPLOADDOC_LOC, true)",Chrome 63.0.3239.132,,2020-01-20 11:50:00,2020-01-20 11:50:00,0.008s,PASSED
+aribakeywords.aribaClick(uploadDocLink),Chrome 63.0.3239.132,,2020-01-20 11:50:00,2020-01-20 11:50:08,7.779s,PASSED
+"comment(""File Upload with xls file and element and click done once it is uploaded"")",Chrome 63.0.3239.132,,2020-01-20 11:50:08,2020-01-20 11:50:08,0.003s,PASSED
+"common.util.aribakeywords.fileUpload(findTestObject(""Object Repository/Page_Ariba Spend Management/awFileUploadButton""), filePath)",Chrome 63.0.3239.132,,2020-01-20 11:50:08,2020-01-20 11:50:10,1.556s,PASSED
+"excelImportBtn = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""equals"", EXCELIMPORT_LOC, true)",Chrome 63.0.3239.132,,2020-01-20 11:50:10,2020-01-20 11:50:10,0.003s,PASSED
+aribakeywords.aribaClick(excelImportBtn),Chrome 63.0.3239.132,,2020-01-20 11:50:10,2020-01-20 11:50:20,10.012s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-01-20 11:50:20,2020-01-20 11:50:21,1.801s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-01-20 11:50:21,2020-01-20 11:50:23,1.917s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/a_TA..""))",Chrome 63.0.3239.132,,2020-01-20 11:50:23,2020-01-20 11:50:31,7.540s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/testCentral""))",Chrome 63.0.3239.132,,2020-01-20 11:50:31,2020-01-20 11:50:39,7.955s,PASSED
+"scrollToElement(findTestObject(""Page_TestCentralPage/Wait for Arches Work Item Searched Out""), 3)",Chrome 63.0.3239.132,,2020-01-20 11:50:39,2020-01-20 11:50:40,1.079s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_TestCentralPage/Wait for Arches Work Item Searched Out""))",Chrome 63.0.3239.132,,2020-01-20 11:50:40,2020-01-20 11:50:48,7.735s,PASSED
+"setText(findTestObject(""Page_TestCentralPage/SearchParameter_workspaceTitle""), CW)",Chrome 63.0.3239.132,,2020-01-20 11:50:48,2020-01-20 11:50:50,2.217s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/div_Run Stager""))",Chrome 63.0.3239.132,,2020-01-20 11:50:50,2020-01-20 11:52:45,1m - 55.057s,PASSED
+sourcingEvent = sourcingEvent + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-01-20 11:52:45,2020-01-20 11:52:45,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/CreateSourcingEvent""), [""sourcingEvent"":sourcingEvent, ""eventType"":eventType, ""rfpEventTemplate"":rfpEventTemplate, ""eventContentFileName"":eventContentFileName, ... ], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-01-20 11:52:45,2020-01-20 12:03:55,11m - 10.207s,FAILED

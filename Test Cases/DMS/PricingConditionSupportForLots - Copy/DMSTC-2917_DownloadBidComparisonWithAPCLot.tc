@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2917_DownloadBidComparisonWithAPCLot</name>
+   <tag>Formula term having APC enabled</tag>
+   <comment></comment>
+   <testCaseGuid>fa06fbfd-61de-4e26-b9cd-18c0ec1c32bb</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>9adfc3bc-5958-4463-967c-774cb01cf166</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'EventLotWithAPCTerm_'</defaultValue>
+      <description></description>
+      <id>b9140c50-a77c-4292-91bf-01bb8e0461a0</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>6e90ca59-e916-45d4-a7ee-5a17b32a9ea0</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'BasketLotTemplateforAPC'</defaultValue>
+      <description></description>
+      <id>598b9394-8e8e-4a71-b023-2e4eacc34fe3</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCLotBidComparisonEventContent.xls'</defaultValue>
+      <description></description>
+      <id>65051bad-d8c2-4a03-aca7-84661a68b255</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>bcbea9a2-7f8d-4927-be9e-9b9ac9dd41c0</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>59acee4f-c979-426e-a3f9-44225fe1db44</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RespOnStartDatePublishRadio</name>
+   <tag></tag>
+   <elementGuidId>08b32807-7caf-480f-b3c5-92569482649b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>PlannedBeginDateComposition_selectedOption::EditView_PlannedBeginDateComposition:NoOption</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SRC-22125_CreateContractFromEventWithFROMScale</name>
+   <tag>Formula term having APC enabled</tag>
+   <comment>create new contract</comment>
+   <testCaseGuid>50f02baf-481d-44e7-9c26-4cd2a1596151</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>3b22fc64-3cd5-4746-b116-5fdd7737ba52</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'EventWithFromScales'</defaultValue>
+      <description></description>
+      <id>098f9232-f491-4aa8-ad26-8245ce9c9e2b</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>d375d11b-f238-44dd-84de-7b7e0b96e79b</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SourcingTemplatewithAPC'</defaultValue>
+      <description></description>
+      <id>386214f9-517d-4e94-bf63-3d9b313ee8f2</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCEventContentWithFROMScale.xls'</defaultValue>
+      <description></description>
+      <id>e40ead92-7f56-4d77-91e1-7c13ec349777</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>761897f8-0be2-4768-bdef-5839d74b1278</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>50913a5e-6612-4f8e-88dc-77e442fca8c7</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+</TestCaseEntity>

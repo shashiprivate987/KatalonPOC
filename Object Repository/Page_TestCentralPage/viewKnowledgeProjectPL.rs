@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>viewKnowledgeProjectPL</name>
+   <tag></tag>
+   <elementGuidId>aed5a9ff-5104-4ebc-a22a-4fd74a0c5aed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>ViewProject::TestCategoryLinks:testUnitClick_1</value>
+   </webElementProperties>
+</WebElementEntity>

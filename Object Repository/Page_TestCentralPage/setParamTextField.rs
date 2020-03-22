@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>setParamTextField</name>
+   <tag></tag>
+   <elementGuidId>cb5a2a56-a073-4537-8129-69a5c6b376a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.admin.TestParameters$RealmParameters_ParamNameValuePair_field=ParamNameValuePair::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

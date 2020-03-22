@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2946_Verify Cost group terms are reportable as a part of Analytical report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1953364-6401-4ab0-a9d3-3faf9734df82</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SRC-21890_CreateContractFromEventWithFormulaSupport</name>
+   <tag>Formula term having APC enabled</tag>
+   <comment>create new contract</comment>
+   <testCaseGuid>17700644-4eb4-455a-9f84-96a340d8fbf0</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>81cb1fde-97d9-4c03-ad72-825ab1f09f2c</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCEventWithCustomFormula'</defaultValue>
+      <description></description>
+      <id>9c5df520-1ffa-40b5-9a0b-be4f89967a76</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>cd4bc8c8-b592-45fe-b38e-8830ada3d57c</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SourcingTemplatewithAPC'</defaultValue>
+      <description></description>
+      <id>17de5a50-7362-4388-9fc8-1ddb3b18b1c8</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCEventContentWithCustomFormula.xls'</defaultValue>
+      <description></description>
+      <id>72a34765-a4b0-4852-b8f9-3e70e41f3bf7</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>e555c9ab-b271-4891-84c2-886de059a22c</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e93f6a76-f6de-4062-bd7d-5f4c2f35fea6</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+</TestCaseEntity>

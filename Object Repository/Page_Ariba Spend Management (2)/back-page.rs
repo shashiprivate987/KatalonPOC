@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>back-page</name>
+   <tag></tag>
+   <elementGuidId>f10f0b17-be9c-43ba-b9cd-e08267727579</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;commandBarTop&quot;)/td[@class=&quot;cmdBar&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;w-back-page-cell&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>AribaBackPage:backAction</value>
+   </webElementProperties>
+</WebElementEntity>

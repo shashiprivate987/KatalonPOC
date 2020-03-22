@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SetRealmParameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0a1d842-7f5e-4114-80c9-39044e0af979</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2362903f-0d24-4216-8cb2-be2749b14d45</id>
+      <masked>false</masked>
+      <name>parameterName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>workspaceTitletextBox</name>
+   <tag></tag>
+   <elementGuidId>b537c75f-a46f-45da-8887-b73be0cffc6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.SearchTesting$SearchParameter_workspaceTitle_field=workspaceTitle::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

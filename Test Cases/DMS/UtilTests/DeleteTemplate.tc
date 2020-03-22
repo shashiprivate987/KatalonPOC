@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteTemplate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d91eced4-c618-4f9d-acb2-4d111e79e81c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>488818bd-6b3b-4af6-acb4-0ead6b4b363e</id>
+      <masked>false</masked>
+      <name>templateName</name>
+   </variable>
+</TestCaseEntity>

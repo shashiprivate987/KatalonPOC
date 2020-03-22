@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UpgradeTemplateVersion</name>
+   <tag></tag>
+   <elementGuidId>4bd96fd8-5d66-4929-a112-9b6ce0a2bab3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>UpgradeTemplateVersion_selectedItem::AmendmentView_UpgradeTemplateVersion:currChoice</value>
+   </webElementProperties>
+</WebElementEntity>

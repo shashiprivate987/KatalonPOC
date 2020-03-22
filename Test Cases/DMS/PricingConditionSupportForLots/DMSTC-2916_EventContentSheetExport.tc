@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2916_EventContentSheetExport</name>
+   <tag>Formula term having APC enabled</tag>
+   <comment>Downloaded</comment>
+   <testCaseGuid>6858494a-2212-4081-ac35-31b3d8ce1387</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>2258d926-5d5e-4c84-bf98-8ca394736286</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'EventLotWithAPCTerm_'</defaultValue>
+      <description></description>
+      <id>e6bf0f90-6e6c-4eb8-bf0a-5c04c8d11662</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>258c6135-be75-4eb0-9338-8fb1f8cd5a6f</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'BasketLotTemplateforAPC'</defaultValue>
+      <description></description>
+      <id>efdf1bce-2b59-4b6f-95ea-a71488e67a7a</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'BasketLotWithAPCEventContent.xls'</defaultValue>
+      <description></description>
+      <id>646aac2d-d272-4b1e-8442-792347af50d7</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>cfb734f8-3115-45b0-aa79-3eb38b8d47b2</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>d021ba87-2525-4735-90a6-43cfa20679f7</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+</TestCaseEntity>

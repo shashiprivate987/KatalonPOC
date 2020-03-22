@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_TotalCost1</name>
+   <tag></tag>
+   <elementGuidId>19dd4c90-94e3-4e9e-b879-7956f13756b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@awname = 'Pre-defined_ariba.analytics.fact.ItemAttributesFact:TotalCost1::ReportTocFieldBrowser:PopupMenuLink' and @title = 'TotalCost1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>Pre-defined_ariba.analytics.fact.ItemAttributesFact:TotalCost1::ReportTocFieldBrowser:PopupMenuLink</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>TotalCost1</value>
+   </webElementProperties>
+</WebElementEntity>

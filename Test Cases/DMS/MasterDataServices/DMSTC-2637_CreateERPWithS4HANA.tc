@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2637_CreateERPWithS4HANA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55aec16f-269d-46d1-bab1-f585f460e70c</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>a572dbf0-eeb6-49fe-b07b-3cbfe3d7ca29</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

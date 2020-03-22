@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SetFeatureToggle</description>
+   <name>SetFeatureToggle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0c284b6-4ba1-4cb6-96c4-e95b2ffffe5e</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>1e48fa5d-8888-4d15-973b-853baae6276c</id>
+      <masked>false</masked>
+      <name>featureToggleName</name>
+   </variable>
+</TestCaseEntity>

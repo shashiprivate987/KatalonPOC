@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FetchRealmPresentationSchemaName</name>
+   <tag></tag>
+   <elementGuidId>e107c7b5-b63c-4574-a2a6-e1084b55022b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tr[@awname='AWRefreshRegion_22']/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tr[@awname='AWRefreshRegion_22']/td[3]</value>
+   </webElementProperties>
+</WebElementEntity>

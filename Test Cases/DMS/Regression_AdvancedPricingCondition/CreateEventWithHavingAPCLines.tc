@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateEventWithHavingAPCLines</name>
+   <tag>Formula term having APC enabled</tag>
+   <comment></comment>
+   <testCaseGuid>895e09a8-8c44-405d-8bb3-3b8db8217154</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>1a800886-4840-4527-9115-f6a6f72e1dff</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCEventWithCustomFormula'</defaultValue>
+      <description></description>
+      <id>f8ace202-9959-44c5-ba16-850ee91bc0f8</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>1eae78c8-1cf2-4123-ad53-326b0496c329</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SourcingTemplatewithAPC'</defaultValue>
+      <description></description>
+      <id>9a4f89a3-6692-4852-ae43-1a933df13ee3</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCEventContentWithCustomFormula.xls'</defaultValue>
+      <description></description>
+      <id>836e6b1c-b255-4e57-a8fd-7acf00faf51a</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>5fa24e5c-b291-4d4d-9de2-5a9482ccaa32</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>2f51fbe7-120f-4ae0-a33a-252bdf7e29ec</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+</TestCaseEntity>

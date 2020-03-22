@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>editFieldValueInCondition</name>
+   <tag></tag>
+   <elementGuidId>12d602b5-d561-4521-9e1e-06dd638d1700</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>Expression_CB-2-0::CreateView_Expression:editFieldMatchTermValue</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>selfStartCF2540CheckBox</name>
+   <tag></tag>
+   <elementGuidId>50c9abbd-d208-4d37-b2f2-3492bc85be70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>StartWhenDependenciesComplete::CreateView_StartWhenDependenciesComplete:booleanValue_1</value>
+   </webElementProperties>
+</WebElementEntity>

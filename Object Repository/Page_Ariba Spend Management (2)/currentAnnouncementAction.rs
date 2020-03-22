@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>currentAnnouncementAction</name>
+   <tag></tag>
+   <elementGuidId>ebb0a8d4-357d-4925-b0e2-0ce3d2e06937</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>::AnnouncementsDetailConcise:viewCurrAnnouncementAction</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="203" tests="0" failures="0" errors="1">
+   <testsuite name="TestSuite" tests="0" failures="0" errors="1" time="203" timestamp="2020-03-16 11:24:36" hostname="i331477 - localhost" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200316_112434"/>
+         <property name="logFiles" value="/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200316_112434/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="i331477 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="1b170c1a51562a2471ba7bbeaa9854d7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport" classname="Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport" status="ERROR">
+         <error type="ERROR" message="Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)
+"/>
+         <system-out><![CDATA[2020-03-16 11:24:36 - [TEST_CASE][ERROR] - Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport: Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)
+
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - fileName = "TestData.xlsx": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - fileRelPath = "/Test Files/dms/ExcelValidations/": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - sheetName = "Shashi_pricingConditions": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - dataTableName = "DataSet7": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - columnHeader = "toggles": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - APCRULE_LOC = "//label[@awname='AllowAdvancedPricingConditions_selectedItem::AdvancedPricingConditionRuleView_AllowAdvancedPricingConditions:currChoice']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - VALIDITYPERIOD_LOC = "//div[@awname='AdvancedPricingConditionRule.ValidityPeriodType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodType:itemList']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - STARTDATE_LOC = "//input[@awname='AdvancedPricingConditionRule.ValidityPeriodStartDate::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodStartDate:textFieldAction_1']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - PERIOD_LOC = "//input[@awname='AdvancedPricingConditionRule.ValidityPeriodDuration::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodDuration:fieldValue']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - SCALETYPE_LOC = "//div[@awname='AdvancedPricingConditionRule.VolumeScaleType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.VolumeScaleType:itemList']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - SCALE_LOC = "//input[@awname='AdvancedPricingConditionRule.Volumes::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.Volumes:newEntry']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - APCLOT_LOC = "//tr[@awname='0.4::AWRefreshRegion']//a//b[text()='Basket Lot']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - LOTCHILDITEM_LOC = "//tr[@awname='0.4_0.4.1::AWRefreshRegion']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - APCLINK_LOC = "//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - LOT_TERM_APC_PRICE_LOC = "//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - service = baseURL: null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - realm = realm: null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - appLoginUrl = service + "/Sourcing/Main?realm=" + realm: null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - userName = "customersupportadmin": null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - sourcingEvent = sourcingEvent + System.currentTimeMillis(): null
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DMS/UtilTests/LoginIntoApp"), ["appLoginUrl":appLoginUrl, "userName":userName], STOP_ON_FAILURE): Call Test Case 'Test Cases/DMS/UtilTests/LoginIntoApp' successfully
+
+2020-03-16 11:24:37 - [TEST_CASE][PASSED] - Test Cases/DMS/UtilTests/LoginIntoApp: Test Cases/DMS/UtilTests/LoginIntoApp
+
+2020-03-16 11:24:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-16 11:24:37 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2020-03-16 11:24:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2020-03-16 11:24:37 - [MESSAGE][INFO] - Connecting to remote web server 'http://10.173.0.211:4444/wd/hub' with type 'Selenium'
+
+2020-03-16 11:24:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-16 11:24:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-16 11:24:40 - [TEST_STEP][PASSED] - navigateToUrl(appLoginUrl): Navigate to 'https://svcdev7ss.ariba.com/Sourcing/Main?realm=s4SVAll' successfully
+
+2020-03-16 11:24:41 - [MESSAGE][PASSED] - Navigate to 'https://svcdev7ss.ariba.com/Sourcing/Main?realm=s4SVAll' successfully
+
+2020-03-16 11:24:41 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_Test Central")): Element has been clicked
+
+2020-03-16 11:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/a_Test Central' is clickable
+
+2020-03-16 11:24:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_Test Central' successfully
+
+2020-03-16 11:24:45 - [MESSAGE][PASSED] - Object 'Object Repository/a_Test Central' is visible
+
+2020-03-16 11:24:45 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Test Central' is clicked on
+
+2020-03-16 11:24:48 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:24:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:24:49 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/testcentralpageusername"), userName): Text 'customersupportadmin' is set on object 'Object Repository/testcentralpageusername'
+
+2020-03-16 11:24:52 - [MESSAGE][PASSED] - Text 'customersupportadmin' is set on object 'Object Repository/testcentralpageusername'
+
+2020-03-16 11:24:52 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/testcentralsetuserbutton")): Element has been clicked
+
+2020-03-16 11:24:53 - [MESSAGE][PASSED] - Object 'Object Repository/testcentralsetuserbutton' is clickable
+
+2020-03-16 11:24:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/testcentralsetuserbutton' successfully
+
+2020-03-16 11:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/testcentralsetuserbutton' is visible
+
+2020-03-16 11:24:56 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/testcentralsetuserbutton' is clicked on
+
+2020-03-16 11:25:03 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:25:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:04 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:25:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DMS/UtilTests/LoginIntoApp' successfully
+
+2020-03-16 11:25:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DMS/UtilTests/CreateSourcingEvent"), ["sourcingEvent":sourcingEvent, "eventType":eventType, "rfpEventTemplate":rfpEventTemplate, "eventContentFileName":eventContentFileName, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' successfully
+
+2020-03-16 11:25:04 - [TEST_CASE][PASSED] - Test Cases/DMS/UtilTests/CreateSourcingEvent: Test Cases/DMS/UtilTests/CreateSourcingEvent
+
+2020-03-16 11:25:04 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_TA..")): Element has been clicked
+
+2020-03-16 11:25:05 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is clickable
+
+2020-03-16 11:25:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_TA..' successfully
+
+2020-03-16 11:25:07 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is visible
+
+2020-03-16 11:25:08 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/a_TA..' is clicked on
+
+2020-03-16 11:25:10 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:25:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:11 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:25:11 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/testCentral")): Element has been clicked
+
+2020-03-16 11:25:12 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is clickable
+
+2020-03-16 11:25:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/testCentral' successfully
+
+2020-03-16 11:25:14 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is visible
+
+2020-03-16 11:25:16 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/testCentral' is clicked on
+
+2020-03-16 11:25:18 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:25:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:19 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:25:19 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_Create Sourcing Event")): Element has been clicked
+
+2020-03-16 11:25:20 - [MESSAGE][PASSED] - Object 'Object Repository/a_Create Sourcing Event' is clickable
+
+2020-03-16 11:25:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_Create Sourcing Event' successfully
+
+2020-03-16 11:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/a_Create Sourcing Event' is visible
+
+2020-03-16 11:25:23 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Create Sourcing Event' is clicked on
+
+2020-03-16 11:25:25 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:25:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:27 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:25:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:28 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:25:28 - [TEST_STEP][PASSED] - common.util.aribakeywords.waitForPageToLoad(3): common.util.aribakeywords.waitForPageToLoad is PASSED
+
+2020-03-16 11:25:29 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:25:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:30 - [MESSAGE][PASSED] - common.util.aribakeywords.waitForPageToLoad is PASSED
+
+2020-03-16 11:25:30 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/input_Name of event__vusb0b")): Element has been clicked
+
+2020-03-16 11:25:31 - [MESSAGE][PASSED] - Object 'Object Repository/input_Name of event__vusb0b' is clickable
+
+2020-03-16 11:25:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/input_Name of event__vusb0b' successfully
+
+2020-03-16 11:25:33 - [MESSAGE][PASSED] - Object 'Object Repository/input_Name of event__vusb0b' is visible
+
+2020-03-16 11:25:34 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Name of event__vusb0b' is clicked on
+
+2020-03-16 11:25:37 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:25:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:25:38 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:25:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name of event__vusb0b"), sourcingEvent): Text 'EventLotWithAPCTerm_1584338077449' is set on object 'Object Repository/input_Name of event__vusb0b'
+
+2020-03-16 11:25:40 - [MESSAGE][PASSED] - Text 'EventLotWithAPCTerm_1584338077449' is set on object 'Object Repository/input_Name of event__vusb0b'
+
+2020-03-16 11:25:40 - [TEST_STEP][PASSED] - eventType = eventType: null
+
+2020-03-16 11:25:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_TestStagerForm/select_(no selection)RFIRFPRFP"), eventType, true): All options with value '1' are selected in object 'Object Repository/Page_TestStagerForm/select_(no selection)RFIRFPRFP'  using regular expression
+
+2020-03-16 11:25:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_TestStagerForm/select_(no selection)RFIRFPRFP'  using regular expression
+
+2020-03-16 11:25:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Event Template Name__qty"), rfpEventTemplate): Text 'BasketLotTemplateforAPC' is set on object 'Object Repository/input_Event Template Name__qty'
+
+2020-03-16 11:25:53 - [MESSAGE][PASSED] - Text 'BasketLotTemplateforAPC' is set on object 'Object Repository/input_Event Template Name__qty'
+
+2020-03-16 11:25:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Event excel file to uplo"), eventContentFileName): Text 'BasketLotWithAPCEventContent.xls' is set on object 'Object Repository/input_Event excel file to uplo'
+
+2020-03-16 11:25:55 - [MESSAGE][PASSED] - Text 'BasketLotWithAPCEventContent.xls' is set on object 'Object Repository/input_Event excel file to uplo'
+
+2020-03-16 11:25:55 - [TEST_STEP][PASSED] - eventEndState = eventEndState: null
+
+2020-03-16 11:25:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_(no selection)draftprev"), eventEndState, true): All options with value '0' are selected in object 'Object Repository/select_(no selection)draftprev'  using regular expression
+
+2020-03-16 11:26:04 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/select_(no selection)draftprev'  using regular expression
+
+2020-03-16 11:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Number Of Bids__yf32cb"), numberOfBids): Text '1' is set on object 'Object Repository/input_Number Of Bids__yf32cb'
+
+2020-03-16 11:26:06 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/input_Number Of Bids__yf32cb'
+
+2020-03-16 11:26:06 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")): common.util.aribakeywords.aribaClick is PASSED
+
+2020-03-16 11:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is clickable
+
+2020-03-16 11:26:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/div_Run Stager' successfully
+
+2020-03-16 11:26:09 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is visible
+
+2020-03-16 11:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Run Stager' is clicked on
+
+2020-03-16 11:26:12 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:14 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:15 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:17 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:18 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:20 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:21 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:22 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:24 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:26 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:27 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:29 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:30 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:26:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' is clickable
+
+2020-03-16 11:26:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-03-16 11:26:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-03-16 11:26:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-03-16 11:26:34 - [MESSAGE][INFO] - in Run stager method
+
+2020-03-16 11:26:34 - [MESSAGE][INFO] -  I am able to see set user. So returning from runstager wait.
+
+2020-03-16 11:26:34 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:26:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:36 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:26:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:37 - [MESSAGE][PASSED] - common.util.aribakeywords.aribaClick is PASSED
+
+2020-03-16 11:26:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' successfully
+
+2020-03-16 11:26:37 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/a_Buyer Monitoring Page")): Element has been clicked
+
+2020-03-16 11:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/a_Buyer Monitoring Page' is clickable
+
+2020-03-16 11:26:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_Buyer Monitoring Page' successfully
+
+2020-03-16 11:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/a_Buyer Monitoring Page' is visible
+
+2020-03-16 11:26:42 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Buyer Monitoring Page' is clicked on
+
+2020-03-16 11:26:44 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:26:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:45 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:26:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:46 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:26:46 - [TEST_STEP][PASSED] - aribakeywords.waitForPageToLoad(3): Delayed 1 second(s)
+
+2020-03-16 11:26:47 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:26:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:48 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-03-16 11:26:49 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-03-16 11:26:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/button_action_draft"), 3): Object 'Object Repository/button_action_draft' is present
+
+2020-03-16 11:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/button_action_draft' is present
+
+2020-03-16 11:26:50 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/button_action_draft")): Element has been clicked
+
+2020-03-16 11:26:51 - [MESSAGE][PASSED] - Object 'Object Repository/button_action_draft' is clickable
+
+2020-03-16 11:26:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/button_action_draft' successfully
+
+2020-03-16 11:26:53 - [MESSAGE][PASSED] - Object 'Object Repository/button_action_draft' is visible
+
+2020-03-16 11:26:54 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/button_action_draft' is clicked on
+
+2020-03-16 11:26:56 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:26:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:26:57 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:26:57 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/edit_event_link")): Element has been clicked
+
+2020-03-16 11:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/edit_event_link' is clickable
+
+2020-03-16 11:26:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/edit_event_link' successfully
+
+2020-03-16 11:27:00 - [MESSAGE][PASSED] - Object 'Object Repository/edit_event_link' is visible
+
+2020-03-16 11:27:01 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/edit_event_link' is clicked on
+
+2020-03-16 11:27:03 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:27:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:05 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:27:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:06 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:27:06 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(APCRULE_LOC), 3, STOP_ON_FAILURE): Object '//label[@awname='AllowAdvancedPricingConditions_selectedItem::AdvancedPricingConditionRuleView_AllowAdvancedPricingConditions:currChoice']' is present
+
+2020-03-16 11:27:07 - [MESSAGE][PASSED] - Object '//label[@awname='AllowAdvancedPricingConditions_selectedItem::AdvancedPricingConditionRuleView_AllowAdvancedPricingConditions:currChoice']' is present
+
+2020-03-16 11:27:07 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(VALIDITYPERIOD_LOC), 3, CONTINUE_ON_FAILURE): Object '//div[@awname='AdvancedPricingConditionRule.ValidityPeriodType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodType:itemList']' is present
+
+2020-03-16 11:27:07 - [MESSAGE][PASSED] - Object '//div[@awname='AdvancedPricingConditionRule.ValidityPeriodType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodType:itemList']' is present
+
+2020-03-16 11:27:07 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(STARTDATE_LOC), 3, STOP_ON_FAILURE): Object '//input[@awname='AdvancedPricingConditionRule.ValidityPeriodStartDate::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodStartDate:textFieldAction_1']' is present
+
+2020-03-16 11:27:08 - [MESSAGE][PASSED] - Object '//input[@awname='AdvancedPricingConditionRule.ValidityPeriodStartDate::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodStartDate:textFieldAction_1']' is present
+
+2020-03-16 11:27:08 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(PERIOD_LOC), 3, STOP_ON_FAILURE): Object '//input[@awname='AdvancedPricingConditionRule.ValidityPeriodDuration::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodDuration:fieldValue']' is present
+
+2020-03-16 11:27:08 - [MESSAGE][PASSED] - Object '//input[@awname='AdvancedPricingConditionRule.ValidityPeriodDuration::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodDuration:fieldValue']' is present
+
+2020-03-16 11:27:08 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(SCALETYPE_LOC), 3, STOP_ON_FAILURE): Object '//div[@awname='AdvancedPricingConditionRule.VolumeScaleType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.VolumeScaleType:itemList']' is present
+
+2020-03-16 11:27:09 - [MESSAGE][PASSED] - Object '//div[@awname='AdvancedPricingConditionRule.VolumeScaleType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.VolumeScaleType:itemList']' is present
+
+2020-03-16 11:27:09 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(SCALE_LOC), 3, STOP_ON_FAILURE): Object '//input[@awname='AdvancedPricingConditionRule.Volumes::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.Volumes:newEntry']' is present
+
+2020-03-16 11:27:09 - [MESSAGE][PASSED] - Object '//input[@awname='AdvancedPricingConditionRule.Volumes::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.Volumes:newEntry']' is present
+
+2020-03-16 11:27:09 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/Content - Draft")): Element has been clicked
+
+2020-03-16 11:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/Content - Draft' is clickable
+
+2020-03-16 11:27:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Content - Draft' successfully
+
+2020-03-16 11:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/Content - Draft' is visible
+
+2020-03-16 11:27:13 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Content - Draft' is clicked on
+
+2020-03-16 11:27:16 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:27:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:17 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:27:17 - [TEST_STEP][PASSED] - aribakeywords.waitForPageToLoad(3): Delayed 1 second(s)
+
+2020-03-16 11:27:17 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:27:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-16 11:27:18 - [TEST_STEP][PASSED] - lotSize = xpath(APCLOT_LOC)).size(): null
+
+2020-03-16 11:27:19 - [TEST_STEP][PASSED] - verifyMatch(lotSize.toString(), "1", false, STOP_ON_FAILURE): Actual text '1' and expected text '1' are matched 
+
+2020-03-16 11:27:19 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2020-03-16 11:27:19 - [TEST_STEP][PASSED] - childItem = xpath(LOTCHILDITEM_LOC)).size(): null
+
+2020-03-16 11:27:19 - [TEST_STEP][PASSED] - verifyMatch(childItem.toString(), "1", false, STOP_ON_FAILURE): Actual text '1' and expected text '1' are matched 
+
+2020-03-16 11:27:19 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2020-03-16 11:27:19 - [TEST_STEP][PASSED] - verifyTextPresent("View pricing conditions", false, STOP_ON_FAILURE): Text 'View pricing conditions' is present on page 
+
+2020-03-16 11:27:21 - [MESSAGE][PASSED] - Text 'View pricing conditions' is present on page 
+
+2020-03-16 11:27:21 - [TEST_STEP][PASSED] - apcLink = aribakeywords.createTestObject(APCLINK_LOC): null
+
+2020-03-16 11:27:21 - [TEST_STEP][PASSED] - verifyElementPresent(apcLink, 3, STOP_ON_FAILURE): Object '//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']' is present
+
+2020-03-16 11:27:22 - [MESSAGE][PASSED] - Object '//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']' is present
+
+2020-03-16 11:27:22 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(apcLink): Element has been clicked
+
+2020-03-16 11:27:23 - [MESSAGE][PASSED] - Object '//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']' is clickable
+
+2020-03-16 11:27:24 - [MESSAGE][PASSED] - Scroll to object '//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']' successfully
+
+2020-03-16 11:27:25 - [MESSAGE][PASSED] - Object '//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']' is visible
+
+2020-03-16 11:27:26 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:27:27 - [MESSAGE][PASSED] - Object: '//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']' is clicked on
+
+2020-03-16 11:27:28 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:27:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:30 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:27:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:31 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:27:31 - [TEST_STEP][PASSED] - verifyTextPresent("Dec 2019 - Dec 9999", false, STOP_ON_FAILURE): Text 'Dec 2019 - Dec 9999' is present on page 
+
+2020-03-16 11:27:32 - [MESSAGE][PASSED] - Text 'Dec 2019 - Dec 9999' is present on page 
+
+2020-03-16 11:27:32 - [TEST_STEP][PASSED] - verifyTextPresent("To 5", false, STOP_ON_FAILURE): Text 'To 5' is present on page 
+
+2020-03-16 11:27:34 - [MESSAGE][PASSED] - Text 'To 5' is present on page 
+
+2020-03-16 11:27:34 - [TEST_STEP][PASSED] - termValue = xpath(LOT_TERM_APC_PRICE_LOC)).getAttribute("value"): null
+
+2020-03-16 11:27:35 - [TEST_STEP][PASSED] - verifyMatch(termValue, "44", false, STOP_ON_FAILURE): Actual text '44' and expected text '44' are matched 
+
+2020-03-16 11:27:35 - [MESSAGE][PASSED] - Actual text '44' and expected text '44' are matched 
+
+2020-03-16 11:27:35 - [TEST_STEP][PASSED] - try: Element has been clicked
+
+2020-03-16 11:27:35 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Page_Ariba Spend Management/span_Done")): Element has been clicked
+
+2020-03-16 11:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Done' is clickable
+
+2020-03-16 11:27:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/span_Done' successfully
+
+2020-03-16 11:27:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Done' is visible
+
+2020-03-16 11:27:39 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/span_Done' is clicked on
+
+2020-03-16 11:27:41 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-03-16 11:27:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:43 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:27:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:44 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:27:44 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(aribakeywords.createTestObject("//button[@awname='ASCContentFrame:excelImportAction']")): Element has been clicked
+
+2020-03-16 11:27:45 - [MESSAGE][PASSED] - Object '//button[@awname='ASCContentFrame:excelImportAction']' is clickable
+
+2020-03-16 11:27:46 - [MESSAGE][PASSED] - Scroll to object '//button[@awname='ASCContentFrame:excelImportAction']' successfully
+
+2020-03-16 11:27:47 - [MESSAGE][PASSED] - Object '//button[@awname='ASCContentFrame:excelImportAction']' is visible
+
+2020-03-16 11:27:48 - [MESSAGE][INFO] - Clicking element
+
+2020-03-16 11:27:49 - [MESSAGE][PASSED] - Object: '//button[@awname='ASCContentFrame:excelImportAction']' is clicked on
+
+2020-03-16 11:27:52 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-03-16 11:27:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-03-16 11:27:53 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-03-16 11:27:53 - [TEST_STEP][PASSED] - usrDir = getProjectDir(): null
+
+2020-03-16 11:27:53 - [TEST_STEP][PASSED] - fileToBeDwnld = aribakeywords.createTestObject("//a[@awname='ASPExcelImport:exportExcelDocumentAction']"): null
+
+2020-03-16 11:27:53 - [TEST_STEP][PASSED] - excelName = sourcingEvent.trim() + ".xls": null
+
+2020-03-16 11:27:53 - [TEST_STEP][ERROR] - aribakeywords.downloadFile(fileToBeDwnld, excelName, 3, 3): aribakeywords.downloadFile(fileToBeDwnld, excelName, 3, 3) FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)
+
+
+2020-03-16 11:27:53 - [MESSAGE][INFO] - Cleanup for '/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200316_112434/EventLotWithAPCTerm_1584338077449.xls': false
+
+2020-03-16 11:27:53 - [MESSAGE][INFO] - GridHostName:10.173.0.211
+
+2020-03-16 11:27:59 - [MESSAGE][ERROR] - aribakeywords.downloadFile(fileToBeDwnld, excelName, 3, 3) FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)]]></system-out>
+         <system-err><![CDATA[2020-03-16 11:24:36 - [TEST_CASE][ERROR] - Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport: Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-16 11:24:36 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)]]></system-out>
+      <system-err><![CDATA[2020-03-16 11:24:36 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport FAILED.
+Reason:
+com.jcraft.jsch.JSchException: Auth fail
+	at com.jcraft.jsch.Session.connect(Session.java:484)
+	at com.jcraft.jsch.Session.connect(Session.java:162)
+	at com.jcraft.jsch.Session$connect$1.call(Unknown Source)
+	at common.util.fileHandling.getConnection(fileHandling.groovy:71)
+	at common.util.fileHandling.downloadFile(fileHandling.groovy:240)
+	at common.util.fileHandling$downloadFile.call(Unknown Source)
+	at common.util.aribakeywords.downloadFile(aribakeywords.groovy:450)
+	at DMSTC-2916_EventContentSheetExport.run(DMSTC-2916_EventContentSheetExport:214)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1584338074690.run(TempTestSuite1584338074690.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

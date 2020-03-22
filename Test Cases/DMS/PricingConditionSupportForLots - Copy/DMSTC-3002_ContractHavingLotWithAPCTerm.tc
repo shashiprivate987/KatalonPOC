@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-3002_ContractHavingLotWithAPCTerm</name>
+   <tag></tag>
+   <comment>File Upload with xls file and element and click done once it is uploaded</comment>
+   <testCaseGuid>30883603-f909-4bca-9ebc-cb032fb29f3e</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>d3783da3-d08e-4261-bb00-08ec9830d5e5</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ContractWithLotAPCTerm_'</defaultValue>
+      <description></description>
+      <id>a3e56a3e-7f34-4f04-aec9-6e78b66a2143</id>
+      <masked>false</masked>
+      <name>contractName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Files/dms/ContractLotAPCContent.xlsx'</defaultValue>
+      <description></description>
+      <id>b1b3ab7e-4f2c-44af-877d-4907903eb650</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'ContractAPCTemplateWithBasketLot'</defaultValue>
+      <description></description>
+      <id>139bcc8c-5426-4eff-b58a-33ae8d896c72</id>
+      <masked>false</masked>
+      <name>contractTemplate</name>
+   </variable>
+</TestCaseEntity>

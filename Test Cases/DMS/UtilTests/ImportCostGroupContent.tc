@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Inside Cost Group View link</description>
+   <name>ImportCostGroupContent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05470b61-a15e-453b-8933-b944014d159a</testCaseGuid>
+</TestCaseEntity>

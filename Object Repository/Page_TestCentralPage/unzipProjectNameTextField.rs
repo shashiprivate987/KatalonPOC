@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>unzipProjectNameTextField</name>
+   <tag></tag>
+   <elementGuidId>8e299faa-0fde-4654-9408-d524102d994c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.UnzipTesting$UnzipDocumentParam_ProjectName_field=ProjectName::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will open recently created sourcing event</description>
+   <name>ViewRecentSourcingEvent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5b00ed6-f8fc-4772-8d71-250e4348295f</testCaseGuid>
+</TestCaseEntity>

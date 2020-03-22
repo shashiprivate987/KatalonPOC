@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dueDateTextFieldInTask</name>
+   <tag></tag>
+   <elementGuidId>9df68dfc-1fb7-42fb-b5fd-031d5becdcb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>DueDate_selectedOption::DateOffsetFixedDate:textFieldAction_1</value>
+   </webElementProperties>
+</WebElementEntity>

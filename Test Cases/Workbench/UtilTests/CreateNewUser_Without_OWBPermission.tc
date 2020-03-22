@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateNewUser_Without_OWBPermission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5303c62a-11a4-4e64-b7fc-842171ad0e40</testCaseGuid>
+   <variable>
+      <defaultValue>'AutomationUser01'</defaultValue>
+      <description></description>
+      <id>d9ed8c3f-6f23-43ba-b41b-62b538d07edc</id>
+      <masked>false</masked>
+      <name>NewUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Event Administrator,SAP Enable Now User'</defaultValue>
+      <description></description>
+      <id>13e0ebe8-d53e-4ecc-b846-7c2d23aafbe7</id>
+      <masked>false</masked>
+      <name>Group</name>
+   </variable>
+</TestCaseEntity>

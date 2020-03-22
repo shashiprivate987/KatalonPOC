@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>publishStateCWStager</name>
+   <tag></tag>
+   <elementGuidId>1cb5cf31-766e-4c7e-85fb-42b4901be1ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.ACMBasicTester$ProjectParameters_ProjectState_field=ProjectState_selection_Publish::RadioButtonList:value</value>
+   </webElementProperties>
+</WebElementEntity>

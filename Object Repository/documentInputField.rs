@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>documentInputField</name>
+   <tag></tag>
+   <elementGuidId>4328834d-b306-40c1-b771-e364961ed606</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.SearchTesting$SearchParameter_documentTitle_field=documentTitle::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>createKnowledgeProjectPageLink</name>
+   <tag></tag>
+   <elementGuidId>57a30b3a-289a-4631-8363-68ff03fa4f3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>createKnowledgeProjectPage::TestCategoryLinks:testUnitClick</value>
+   </webElementProperties>
+</WebElementEntity>

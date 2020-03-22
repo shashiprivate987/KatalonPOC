@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>replaceDocumentUploadButton</name>
+   <tag></tag>
+   <elementGuidId>36c7c443-0d5c-4860-84d6-c29ae1fc9ce3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>uploadRevisedDocOption::AWFileUploadInternals</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SSTC-13415_RFPEvent_BidAnalysis_Visibility_Failure_FeatureToggle_Off</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94fe0e21-348c-43eb-bfd8-1d459f7fe2e6</testCaseGuid>
+   <variable>
+      <defaultValue>'OWBAutomationUser01'</defaultValue>
+      <description></description>
+      <id>8ae14b25-2929-4307-889c-105b4b3961cb</id>
+      <masked>false</masked>
+      <name>NewUserName</name>
+   </variable>
+</TestCaseEntity>

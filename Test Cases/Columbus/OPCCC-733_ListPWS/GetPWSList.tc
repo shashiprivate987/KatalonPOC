@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RestAPI call to get the list of PWS</description>
+   <name>GetPWSList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be751a81-7bca-4dd3-8bb0-d31c2ddc30f2</testCaseGuid>
+</TestCaseEntity>

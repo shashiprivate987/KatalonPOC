@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="999" tests="0" failures="1" errors="0">
+   <testsuite name="TestSuite" tests="0" failures="1" errors="0" time="999" timestamp="2020-01-20 11:47:16" hostname="i331477 - 192.168.0.101" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714"/>
+         <property name="logFiles" value="/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/execution0.log"/>
+         <property name="attachments" value="/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501620686.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501690766.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501759300.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501826479.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501894106.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501961807.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579502029439.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579502033889.png, /Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579502034934.png"/>
+         <property name="hostName" value="i331477 - 192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="4f14df46ba727aa4555480c8fd1ca4ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot" classname="Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2020-01-20 11:47:16 - [TEST_CASE][FAILED] - Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot: Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - OPENCLID_LOC = "//a[contains(@awname,'Open::AbstractDocumentDownloadIcon:itemAction')]": null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - UPLOADDOC_LOC = "ASCContentFrame:excelImportAction": null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - EXCELIMPORT_LOC = "ASPExcelImport:importExcelDocumentAction": null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - OPENDOC_LOC = "Open::AbstractDocumentDownloadIcon:itemAction": null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - CONTENTITEMS_LOC = "//table[@awname='displayGroup:tableBody']//tr[contains(@awname,'AWRefreshRegion')]": null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - APPENDEDAPCLINK_LOC = "//a[@awname='0.2_PRICEPrice::PRICE:pricingInfoDisplay' and text()='View pricing conditions ']": null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - service = baseURL: null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - realm = realm: null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - appLoginUrl = service + "/Sourcing/Main?realm=" + realm: null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - CW = contractName + System.currentTimeMillis(): null
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DMS/UtilTests/LoginIntoApp"), ["appLoginUrl":appLoginUrl, "userName":userName], STOP_ON_FAILURE): Call Test Case 'Test Cases/DMS/UtilTests/LoginIntoApp' successfully
+
+2020-01-20 11:47:17 - [TEST_CASE][PASSED] - Test Cases/DMS/UtilTests/LoginIntoApp: Test Cases/DMS/UtilTests/LoginIntoApp
+
+2020-01-20 11:47:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-20 11:47:17 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2020-01-20 11:47:17 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2020-01-20 11:47:17 - [MESSAGE][INFO] - Connecting to remote web server 'http://10.173.0.211:4444/wd/hub' with type 'Selenium'
+
+2020-01-20 11:47:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-20 11:47:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-20 11:47:20 - [TEST_STEP][PASSED] - navigateToUrl(appLoginUrl): Navigate to 'https://svcdev8ss.ariba.com/Sourcing/Main?realm=s4SVAll-4' successfully
+
+2020-01-20 11:47:22 - [MESSAGE][PASSED] - Navigate to 'https://svcdev8ss.ariba.com/Sourcing/Main?realm=s4SVAll-4' successfully
+
+2020-01-20 11:47:22 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_Test Central")): Element has been clicked
+
+2020-01-20 11:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/a_Test Central' is clickable
+
+2020-01-20 11:47:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_Test Central' successfully
+
+2020-01-20 11:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/a_Test Central' is visible
+
+2020-01-20 11:47:26 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Test Central' is clicked on
+
+2020-01-20 11:47:29 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:47:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:47:30 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:47:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/testcentralpageusername"), userName): Text 'customersupportadmin' is set on object 'Object Repository/testcentralpageusername'
+
+2020-01-20 11:47:32 - [MESSAGE][PASSED] - Text 'customersupportadmin' is set on object 'Object Repository/testcentralpageusername'
+
+2020-01-20 11:47:32 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/testcentralsetuserbutton")): Element has been clicked
+
+2020-01-20 11:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/testcentralsetuserbutton' is clickable
+
+2020-01-20 11:47:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/testcentralsetuserbutton' successfully
+
+2020-01-20 11:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/testcentralsetuserbutton' is visible
+
+2020-01-20 11:47:37 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/testcentralsetuserbutton' is clicked on
+
+2020-01-20 11:47:40 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:47:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:47:41 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:47:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DMS/UtilTests/LoginIntoApp' successfully
+
+2020-01-20 11:47:41 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Page_Ariba Spend Management/a_TA..")): Element has been clicked
+
+2020-01-20 11:47:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/a_TA..' is clickable
+
+2020-01-20 11:47:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/a_TA..' successfully
+
+2020-01-20 11:47:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/a_TA..' is visible
+
+2020-01-20 11:47:45 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/a_TA..' is clicked on
+
+2020-01-20 11:47:47 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:47:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:47:48 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:47:48 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Page_TestCentralPage/Test Central ACM")): Element has been clicked
+
+2020-01-20 11:47:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TestCentralPage/Test Central ACM' is clickable
+
+2020-01-20 11:47:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_TestCentralPage/Test Central ACM' successfully
+
+2020-01-20 11:47:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TestCentralPage/Test Central ACM' is visible
+
+2020-01-20 11:47:53 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TestCentralPage/Test Central ACM' is clicked on
+
+2020-01-20 11:47:55 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:47:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:47:56 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:47:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Ariba Spend Management/a_Create Workspace"), 3): Scroll to object 'Object Repository/Page_Ariba Spend Management/a_Create Workspace' successfully
+
+2020-01-20 11:47:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/a_Create Workspace' successfully
+
+2020-01-20 11:47:57 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Page_Ariba Spend Management/a_Create Workspace")): Element has been clicked
+
+2020-01-20 11:47:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/a_Create Workspace' is clickable
+
+2020-01-20 11:47:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/a_Create Workspace' successfully
+
+2020-01-20 11:48:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/a_Create Workspace' is visible
+
+2020-01-20 11:48:01 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/a_Create Workspace' is clicked on
+
+2020-01-20 11:48:03 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:04 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:48:04 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/input supplier cw")): Element has been clicked
+
+2020-01-20 11:48:05 - [MESSAGE][PASSED] - Object 'Object Repository/input supplier cw' is clickable
+
+2020-01-20 11:48:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/input supplier cw' successfully
+
+2020-01-20 11:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/input supplier cw' is visible
+
+2020-01-20 11:48:09 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/input supplier cw' is clicked on
+
+2020-01-20 11:48:11 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:12 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input supplier cw"), supplier): Text 'Javatec.com' is set on object 'Object Repository/input supplier cw'
+
+2020-01-20 11:48:14 - [MESSAGE][PASSED] - Text 'Javatec.com' is set on object 'Object Repository/input supplier cw'
+
+2020-01-20 11:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Ariba Spend Management/input_Name of Workspace__bdp8j"), CW): Text 'CW_1579501037347' is set on object 'Object Repository/Page_Ariba Spend Management/input_Name of Workspace__bdp8j'
+
+2020-01-20 11:48:16 - [MESSAGE][PASSED] - Text 'CW_1579501037347' is set on object 'Object Repository/Page_Ariba Spend Management/input_Name of Workspace__bdp8j'
+
+2020-01-20 11:48:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Ariba Spend Management/input_Name of Template__x1sbod"), contractTemplate): Text 'ContractAPCTemplateWithBasketLot' is set on object 'Object Repository/Page_Ariba Spend Management/input_Name of Template__x1sbod'
+
+2020-01-20 11:48:19 - [MESSAGE][PASSED] - Text 'ContractAPCTemplateWithBasketLot' is set on object 'Object Repository/Page_Ariba Spend Management/input_Name of Template__x1sbod'
+
+2020-01-20 11:48:19 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")): Delayed 1 second(s)
+
+2020-01-20 11:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is clickable
+
+2020-01-20 11:48:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/div_Run Stager' successfully
+
+2020-01-20 11:48:22 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is visible
+
+2020-01-20 11:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Run Stager' is clicked on
+
+2020-01-20 11:48:26 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:48:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:27 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' is clickable
+
+2020-01-20 11:48:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 11:48:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 11:48:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 11:48:31 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 11:48:31 - [MESSAGE][INFO] -  I am able to see set user. So returning from runstager wait.
+
+2020-01-20 11:48:32 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:34 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:35 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/DMS/UtilTests/SetContractProjectCompactView' successfully
+
+2020-01-20 11:48:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DMS/UtilTests/SetContractProjectCompactView"), ["projectName":CW], OPTIONAL): Call Test Case 'Test Cases/DMS/UtilTests/SetContractProjectCompactView' successfully
+
+2020-01-20 11:48:35 - [TEST_CASE][PASSED] - Test Cases/DMS/UtilTests/SetContractProjectCompactView: Test Cases/DMS/UtilTests/SetContractProjectCompactView
+
+2020-01-20 11:48:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-20 11:48:37 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-20 11:48:37 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_TA..")): Element has been clicked
+
+2020-01-20 11:48:38 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is clickable
+
+2020-01-20 11:48:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_TA..' successfully
+
+2020-01-20 11:48:40 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is visible
+
+2020-01-20 11:48:41 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/a_TA..' is clicked on
+
+2020-01-20 11:48:43 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:44 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:48:44 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/testCentral")): Element has been clicked
+
+2020-01-20 11:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is clickable
+
+2020-01-20 11:48:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/testCentral' successfully
+
+2020-01-20 11:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is visible
+
+2020-01-20 11:48:49 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/testCentral' is clicked on
+
+2020-01-20 11:48:51 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:48:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:48:52 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:48:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/a_Set Project View"), 2, OPTIONAL): Object 'Object Repository/a_Set Project View' is clickable
+
+2020-01-20 11:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/a_Set Project View' is clickable
+
+2020-01-20 11:48:53 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_Set Project View")): Element has been clicked
+
+2020-01-20 11:48:54 - [MESSAGE][PASSED] - Object 'Object Repository/a_Set Project View' is clickable
+
+2020-01-20 11:48:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_Set Project View' successfully
+
+2020-01-20 11:48:56 - [MESSAGE][PASSED] - Object 'Object Repository/a_Set Project View' is visible
+
+2020-01-20 11:48:58 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Set Project View' is clicked on
+
+2020-01-20 11:49:00 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:01 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:49:01 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-20 11:49:01 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-20 11:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Workspace Title__kyhyhb"), projectName): Text 'CW_1579501037347' is set on object 'Object Repository/input_Workspace Title__kyhyhb'
+
+2020-01-20 11:49:03 - [MESSAGE][PASSED] - Text 'CW_1579501037347' is set on object 'Object Repository/input_Workspace Title__kyhyhb'
+
+2020-01-20 11:49:03 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/input_Display__p7ugj")): Element has been clicked
+
+2020-01-20 11:49:04 - [MESSAGE][PASSED] - Object 'Object Repository/input_Display__p7ugj' is clickable
+
+2020-01-20 11:49:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/input_Display__p7ugj' successfully
+
+2020-01-20 11:49:07 - [MESSAGE][PASSED] - Object 'Object Repository/input_Display__p7ugj' is visible
+
+2020-01-20 11:49:08 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Display__p7ugj' is clicked on
+
+2020-01-20 11:49:10 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:11 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:49:11 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")): common.util.aribakeywords.aribaClick is PASSED
+
+2020-01-20 11:49:12 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is clickable
+
+2020-01-20 11:49:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/div_Run Stager' successfully
+
+2020-01-20 11:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is visible
+
+2020-01-20 11:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Run Stager' is clicked on
+
+2020-01-20 11:49:18 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' is clickable
+
+2020-01-20 11:49:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 11:49:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 11:49:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 11:49:22 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 11:49:22 - [MESSAGE][INFO] -  I am able to see set user. So returning from runstager wait.
+
+2020-01-20 11:49:23 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:25 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:26 - [MESSAGE][PASSED] - common.util.aribakeywords.aribaClick is PASSED
+
+2020-01-20 11:49:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DMS/UtilTests/SetContractProjectCompactView' successfully
+
+2020-01-20 11:49:26 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-20 11:49:27 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-20 11:49:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Ariba Spend Management/View_Project"), 3): Scroll to object 'Object Repository/Page_Ariba Spend Management/View_Project' successfully
+
+2020-01-20 11:49:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/View_Project' successfully
+
+2020-01-20 11:49:28 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Page_Ariba Spend Management/View_Project")): Element has been clicked
+
+2020-01-20 11:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/View_Project' is clickable
+
+2020-01-20 11:49:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/View_Project' successfully
+
+2020-01-20 11:49:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/View_Project' is visible
+
+2020-01-20 11:49:33 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/View_Project' is clicked on
+
+2020-01-20 11:49:35 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:49:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:37 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:38 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:49:38 - [TEST_STEP][PASSED] - aribakeywords.waitForPageToLoad(3): Delayed 1 second(s)
+
+2020-01-20 11:49:39 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:40 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-20 11:49:41 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-20 11:49:41 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon")): Element has been clicked
+
+2020-01-20 11:49:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon' is clickable
+
+2020-01-20 11:49:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon' successfully
+
+2020-01-20 11:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon' is visible
+
+2020-01-20 11:49:45 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon' is clicked on
+
+2020-01-20 11:49:47 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:49:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:49:49 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:49:49 - [TEST_STEP][PASSED] - Thread.sleep(2): null
+
+2020-01-20 11:49:49 - [TEST_STEP][PASSED] - verifyElementPresent(aribakeywords.createTestObject(OPENCLID_LOC), 2, STOP_ON_FAILURE): Object '//a[contains(@awname,'Open::AbstractDocumentDownloadIcon:itemAction')]' is present
+
+2020-01-20 11:49:49 - [MESSAGE][PASSED] - Object '//a[contains(@awname,'Open::AbstractDocumentDownloadIcon:itemAction')]' is present
+
+2020-01-20 11:49:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-20 11:49:49 - [TEST_STEP][PASSED] - xpath(OPENCLID_LOC)).click(): null
+
+2020-01-20 11:49:51 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/Page_ASPEditContentDocument/span_Excel Import")): Element has been clicked
+
+2020-01-20 11:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ASPEditContentDocument/span_Excel Import' is clickable
+
+2020-01-20 11:49:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_ASPEditContentDocument/span_Excel Import' successfully
+
+2020-01-20 11:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ASPEditContentDocument/span_Excel Import' is visible
+
+2020-01-20 11:49:57 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ASPEditContentDocument/span_Excel Import' is clicked on
+
+2020-01-20 11:49:59 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:00 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:50:00 - [TEST_STEP][PASSED] - uploadDocLink = modifyObjectProperty(findTestObject("Object Repository/Page_Ariba Spend Management/span_Import"), "awname", "equals", UPLOADDOC_LOC, true): Modify property of object successfully
+
+2020-01-20 11:50:00 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2020-01-20 11:50:00 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(uploadDocLink): Element has been clicked
+
+2020-01-20 11:50:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Import' is clickable
+
+2020-01-20 11:50:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/span_Import' successfully
+
+2020-01-20 11:50:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Import' is visible
+
+2020-01-20 11:50:05 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/span_Import' is clicked on
+
+2020-01-20 11:50:07 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:08 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:50:08 - [TEST_STEP][PASSED] - comment("File Upload with xls file and element and click done once it is uploaded"): File Upload with xls file and element and click done once it is uploaded
+
+2020-01-20 11:50:08 - [MESSAGE][INFO] - File Upload with xls file and element and click done once it is uploaded
+
+2020-01-20 11:50:08 - [TEST_STEP][PASSED] - common.util.aribakeywords.fileUpload(findTestObject("Object Repository/Page_Ariba Spend Management/awFileUploadButton"), filePath): common.util.aribakeywords.fileUpload is PASSED
+
+2020-01-20 11:50:10 - [MESSAGE][PASSED] - common.util.aribakeywords.fileUpload is PASSED
+
+2020-01-20 11:50:10 - [TEST_STEP][PASSED] - excelImportBtn = modifyObjectProperty(findTestObject("Object Repository/Page_Ariba Spend Management/span_Import"), "awname", "equals", EXCELIMPORT_LOC, true): Modify property of object successfully
+
+2020-01-20 11:50:10 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2020-01-20 11:50:10 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(excelImportBtn): Element has been clicked
+
+2020-01-20 11:50:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Import' is clickable
+
+2020-01-20 11:50:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Ariba Spend Management/span_Import' successfully
+
+2020-01-20 11:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/span_Import' is visible
+
+2020-01-20 11:50:14 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ariba Spend Management/span_Import' is clicked on
+
+2020-01-20 11:50:19 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:20 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:50:20 - [TEST_STEP][PASSED] - verifyTextPresent("View pricing conditions", false, STOP_ON_FAILURE): Text 'View pricing conditions' is present on page 
+
+2020-01-20 11:50:21 - [MESSAGE][PASSED] - Text 'View pricing conditions' is present on page 
+
+2020-01-20 11:50:21 - [TEST_STEP][PASSED] - aribakeywords.waitForPageToLoad(3): Delayed 1 second(s)
+
+2020-01-20 11:50:22 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:23 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/a_TA..")): Element has been clicked
+
+2020-01-20 11:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is clickable
+
+2020-01-20 11:50:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_TA..' successfully
+
+2020-01-20 11:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is visible
+
+2020-01-20 11:50:28 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/a_TA..' is clicked on
+
+2020-01-20 11:50:30 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:31 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:50:31 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/testCentral")): Element has been clicked
+
+2020-01-20 11:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is clickable
+
+2020-01-20 11:50:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/testCentral' successfully
+
+2020-01-20 11:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is visible
+
+2020-01-20 11:50:35 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/testCentral' is clicked on
+
+2020-01-20 11:50:38 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:39 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:50:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_TestCentralPage/Wait for Arches Work Item Searched Out"), 3): Scroll to object 'Object Repository/Page_TestCentralPage/Wait for Arches Work Item Searched Out' successfully
+
+2020-01-20 11:50:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_TestCentralPage/Wait for Arches Work Item Searched Out' successfully
+
+2020-01-20 11:50:40 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Page_TestCentralPage/Wait for Arches Work Item Searched Out")): Element has been clicked
+
+2020-01-20 11:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TestCentralPage/Wait for Arches Work Item Searched Out' is clickable
+
+2020-01-20 11:50:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_TestCentralPage/Wait for Arches Work Item Searched Out' successfully
+
+2020-01-20 11:50:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TestCentralPage/Wait for Arches Work Item Searched Out' is visible
+
+2020-01-20 11:50:44 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TestCentralPage/Wait for Arches Work Item Searched Out' is clicked on
+
+2020-01-20 11:50:47 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:50:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:48 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_TestCentralPage/SearchParameter_workspaceTitle"), CW): Text 'CW_1579501037347' is set on object 'Object Repository/Page_TestCentralPage/SearchParameter_workspaceTitle'
+
+2020-01-20 11:50:50 - [MESSAGE][PASSED] - Text 'CW_1579501037347' is set on object 'Object Repository/Page_TestCentralPage/SearchParameter_workspaceTitle'
+
+2020-01-20 11:50:50 - [TEST_STEP][PASSED] - aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")): Delayed 1 second(s)
+
+2020-01-20 11:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is clickable
+
+2020-01-20 11:50:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/div_Run Stager' successfully
+
+2020-01-20 11:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is visible
+
+2020-01-20 11:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Run Stager' is clicked on
+
+2020-01-20 11:50:56 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:50:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:58 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:50:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:50:59 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:01 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:02 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:04 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:05 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:07 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:08 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:10 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:11 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:13 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:14 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:16 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:17 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:19 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:20 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:22 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:24 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:25 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:27 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:28 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:30 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:31 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:33 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:34 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:36 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:37 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:39 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:40 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:42 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:43 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:45 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:46 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:48 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:49 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:51 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:52 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:54 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:55 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:57 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:51:58 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:51:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:00 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:01 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:03 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:04 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:06 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:08 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:09 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:11 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:12 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:13 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:15 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:16 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:18 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:19 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:21 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:22 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:24 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:25 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:27 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:28 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:30 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:31 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:33 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:34 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:36 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:52:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:37 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:52:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' is clickable
+
+2020-01-20 11:52:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 11:52:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 11:52:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 11:52:41 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 11:52:41 - [MESSAGE][INFO] -  I am able to see set user. So returning from runstager wait.
+
+2020-01-20 11:52:42 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:52:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:44 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:52:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:45 - [TEST_STEP][PASSED] - sourcingEvent = sourcingEvent + System.currentTimeMillis(): null
+
+2020-01-20 11:52:45 - [TEST_STEP][FAILED] - callTestCase(findTestCase("DMS/UtilTests/CreateSourcingEvent"), ["sourcingEvent":sourcingEvent, "eventType":eventType, "rfpEventTemplate":rfpEventTemplate, "eventContentFileName":eventContentFileName, ... ], STOP_ON_FAILURE): callTestCase(findTestCase("DMS/UtilTests/CreateSourcingEvent"), ["sourcingEvent":sourcingEvent, "eventType":eventType, "rfpEventTemplate":rfpEventTemplate, "eventContentFileName":eventContentFileName, ... ], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2020-01-20 11:52:45 - [TEST_CASE][FAILED] - Test Cases/DMS/UtilTests/CreateSourcingEvent: Test Cases/DMS/UtilTests/CreateSourcingEvent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+
+
+2020-01-20 11:52:45 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_TA..")): Element has been clicked
+
+2020-01-20 11:52:46 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is clickable
+
+2020-01-20 11:52:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_TA..' successfully
+
+2020-01-20 11:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/a_TA..' is visible
+
+2020-01-20 11:52:50 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/a_TA..' is clicked on
+
+2020-01-20 11:52:52 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:52:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:52:53 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:52:53 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/testCentral")): Element has been clicked
+
+2020-01-20 11:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is clickable
+
+2020-01-20 11:52:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/testCentral' successfully
+
+2020-01-20 11:52:56 - [MESSAGE][PASSED] - Object 'Object Repository/testCentral' is visible
+
+2020-01-20 11:52:57 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/testCentral' is clicked on
+
+2020-01-20 11:52:59 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:53:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:53:00 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:53:00 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/a_Create Sourcing Event")): Element has been clicked
+
+2020-01-20 11:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/a_Create Sourcing Event' is clickable
+
+2020-01-20 11:53:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/a_Create Sourcing Event' successfully
+
+2020-01-20 11:53:03 - [MESSAGE][PASSED] - Object 'Object Repository/a_Create Sourcing Event' is visible
+
+2020-01-20 11:53:05 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Create Sourcing Event' is clicked on
+
+2020-01-20 11:53:07 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:53:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:53:08 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:53:08 - [TEST_STEP][PASSED] - common.util.aribakeywords.waitForPageToLoad(3): common.util.aribakeywords.waitForPageToLoad is PASSED
+
+2020-01-20 11:53:09 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:53:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:53:10 - [MESSAGE][PASSED] - common.util.aribakeywords.waitForPageToLoad is PASSED
+
+2020-01-20 11:53:10 - [TEST_STEP][PASSED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/input_Name of event__vusb0b")): Element has been clicked
+
+2020-01-20 11:53:11 - [MESSAGE][PASSED] - Object 'Object Repository/input_Name of event__vusb0b' is clickable
+
+2020-01-20 11:53:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/input_Name of event__vusb0b' successfully
+
+2020-01-20 11:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/input_Name of event__vusb0b' is visible
+
+2020-01-20 11:53:14 - [MESSAGE][INFO] - Clicking element
+
+2020-01-20 11:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Name of event__vusb0b' is clicked on
+
+2020-01-20 11:53:17 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:53:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:53:18 - [MESSAGE][PASSED] - Element has been clicked
+
+2020-01-20 11:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name of event__vusb0b"), sourcingEvent): Text 'EventLotWithAPCTerm_1579501365356' is set on object 'Object Repository/input_Name of event__vusb0b'
+
+2020-01-20 11:53:20 - [MESSAGE][PASSED] - Text 'EventLotWithAPCTerm_1579501365356' is set on object 'Object Repository/input_Name of event__vusb0b'
+
+2020-01-20 11:53:20 - [TEST_STEP][PASSED] - eventType = eventType: null
+
+2020-01-20 11:53:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_TestStagerForm/select_(no selection)RFIRFPRFP"), eventType, true): All options with value '1' are selected in object 'Object Repository/Page_TestStagerForm/select_(no selection)RFIRFPRFP'  using regular expression
+
+2020-01-20 11:53:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_TestStagerForm/select_(no selection)RFIRFPRFP'  using regular expression
+
+2020-01-20 11:53:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Event Template Name__qty"), rfpEventTemplate): Text 'BasketLotTemplateforAPC' is set on object 'Object Repository/input_Event Template Name__qty'
+
+2020-01-20 11:53:33 - [MESSAGE][PASSED] - Text 'BasketLotTemplateforAPC' is set on object 'Object Repository/input_Event Template Name__qty'
+
+2020-01-20 11:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Event excel file to uplo"), eventContentFileName): Text 'BasketLotWithAPCEventContent.xls' is set on object 'Object Repository/input_Event excel file to uplo'
+
+2020-01-20 11:53:36 - [MESSAGE][PASSED] - Text 'BasketLotWithAPCEventContent.xls' is set on object 'Object Repository/input_Event excel file to uplo'
+
+2020-01-20 11:53:36 - [TEST_STEP][PASSED] - eventEndState = eventEndState: null
+
+2020-01-20 11:53:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_(no selection)draftprev"), eventEndState, true): All options with value '6' are selected in object 'Object Repository/select_(no selection)draftprev'  using regular expression
+
+2020-01-20 11:53:48 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/select_(no selection)draftprev'  using regular expression
+
+2020-01-20 11:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Number Of Bids__yf32cb"), numberOfBids): Text '1' is set on object 'Object Repository/input_Number Of Bids__yf32cb'
+
+2020-01-20 11:53:50 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/input_Number Of Bids__yf32cb'
+
+2020-01-20 11:53:50 - [TEST_STEP][FAILED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")): common.util.aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+
+
+2020-01-20 11:53:51 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is clickable
+
+2020-01-20 11:53:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/div_Run Stager' successfully
+
+2020-01-20 11:53:53 - [MESSAGE][PASSED] - Object 'Object Repository/div_Run Stager' is visible
+
+2020-01-20 11:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Run Stager' is clicked on
+
+2020-01-20 11:53:57 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:53:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:53:59 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:00 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:02 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:03 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:05 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:06 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:08 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:09 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:11 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:12 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:14 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:15 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:17 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:18 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:20 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:21 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:23 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:24 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:26 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:27 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:29 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:31 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:32 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:34 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:35 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:37 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:38 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:40 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:41 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:43 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:44 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:46 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:47 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:49 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:50 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:52 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:53 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:55 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:56 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:58 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:54:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:54:59 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:01 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:02 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:04 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:05 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:07 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:08 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:10 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:11 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:13 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:14 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:16 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:17 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:19 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:20 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:22 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:23 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:25 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:26 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:28 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:29 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:31 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:32 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:34 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:35 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:37 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:39 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:40 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:42 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:43 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:44 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:46 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:48 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:49 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:51 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:52 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:54 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:55 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:57 - [MESSAGE][INFO] - ************* JS EXECUTED ************: false
+
+2020-01-20 11:55:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:55:58 - [MESSAGE][INFO] - ************* JS EXECUTED ************: true
+
+2020-01-20 11:55:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:57:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 11:57:07 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501620686.png]]
+
+2020-01-20 11:57:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 11:57:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 11:57:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 11:57:08 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 11:57:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:58:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 11:58:15 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501690766.png]]
+
+2020-01-20 11:58:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 11:58:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 11:58:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 11:58:17 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 11:58:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 11:59:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 11:59:23 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501759300.png]]
+
+2020-01-20 11:59:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 11:59:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 11:59:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 11:59:25 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 11:59:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 12:00:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 12:00:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501826479.png]]
+
+2020-01-20 12:00:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 12:00:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 12:00:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 12:00:31 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 12:00:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 12:01:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 12:01:38 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501894106.png]]
+
+2020-01-20 12:01:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 12:01:39 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 12:01:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 12:01:40 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 12:01:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 12:02:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 12:02:45 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579501961807.png]]
+
+2020-01-20 12:02:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 12:02:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 12:02:47 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is not present after '1' second(s)
+
+2020-01-20 12:02:47 - [MESSAGE][INFO] - in Run stager method
+
+2020-01-20 12:02:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-01-20 12:03:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-20 12:03:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/input__bt5lrc' located by 'By.xpath: //*[@awname = 'TestSessionUserSetup:username']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.call(VerifyElementClickableKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$7.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:277)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579502029439.png]]
+
+2020-01-20 12:03:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StackTrace' located by 'By.xpath: //*[@awname = 'SHOW_STACK_TRACE']' is not present after '1' second(s)
+
+2020-01-20 12:03:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/StagerError' located by 'By.xpath: //*[@awname = 'TestStagerErrorPage:toggleStackTrace']' is not present after '1' second(s)
+
+2020-01-20 12:03:54 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:280)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579502033889.png]]
+
+2020-01-20 12:03:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:118)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1467)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$8.call(Unknown Source)
+	at common.util.aribakeywords.runStager(aribakeywords.groovy:280)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:73)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' located by 'By.xpath: //*[@awname = 'Return to the Ariba login page::ARPException:linkAction']' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:107)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.call(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 39 more
+)
+[[ATTACHMENT|/Users/i331477/git/S4MicroServiceKatalon/Reports/TestSuite/20200120_114714/1579502034934.png]]
+
+2020-01-20 12:03:55 - [MESSAGE][FAILED] - Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+
+2020-01-20 12:03:55 - [MESSAGE][FAILED] - common.util.aribakeywords.aribaClick(findTestObject("Object Repository/div_Run Stager")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+
+
+2020-01-20 12:03:55 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2020-01-20 12:03:55 - [MESSAGE][FAILED] - callTestCase(findTestCase("DMS/UtilTests/CreateSourcingEvent"), ["sourcingEvent":sourcingEvent, "eventType":eventType, "rfpEventTemplate":rfpEventTemplate, "eventContentFileName":eventContentFileName, ... ], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+         <system-err><![CDATA[2020-01-20 11:47:16 - [TEST_CASE][FAILED] - Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot: Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-20 11:47:16 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2020-01-20 11:47:16 - [TEST_SUITE][FAILED] - TestSuite: Test Cases/DMS/PricingConditionSupportForLots/DMSTC-2922_AppendContractFromEventContentHavingAPCLot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DMS/UtilTests/CreateSourcingEvent' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at DMSTC-2922_AppendContractFromEventContentHavingAPCLot.run(DMSTC-2922_AppendContractFromEventContentHavingAPCLot:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579501034672.run(TempTestSuite1579501034672.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Fail to click on Object : TestObject - 'Object Repository/div_Run Stager'
+Test Element : [[CRemoteWebDriver: chrome on LINUX (4f14df46ba727aa4555480c8fd1ca4ac)] -> xpath: //td[@awname = 'TestStagerForm:runStager']]
+
+Stack Trace : com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Ariba Spend Management/ReturnToLoginPage' is not present
+
+
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:27)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at common.util.aribakeywords.aribaClick(aribakeywords.groovy:95)
+	at common.util.aribakeywords.invokeMethod(aribakeywords.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at CreateSourcingEvent.run(CreateSourcingEvent:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

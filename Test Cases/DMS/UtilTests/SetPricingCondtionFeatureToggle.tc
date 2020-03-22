@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SetPricingCondtionFeatureToggle</description>
+   <name>SetPricingCondtionFeatureToggle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18acfa14-3536-4d2f-8efa-01a83c3161db</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e4068cb-e590-4bf4-8b9f-0b894f28f486</id>
+      <masked>false</masked>
+      <name>featureToggleName</name>
+   </variable>
+</TestCaseEntity>

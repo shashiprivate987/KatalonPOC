@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginIntoApp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>524c6052-4f9f-4fe5-8c71-8fe23ce5d0d7</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>0545a576-2c4a-4fcd-be13-2e16e9948852</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d09e491-0888-4d87-9a0b-d5cb60df850d</id>
+      <masked>false</masked>
+      <name>appLoginUrl</name>
+   </variable>
+</TestCaseEntity>

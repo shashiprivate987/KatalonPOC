@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>supplierPublishKeyWord</name>
+   <tag></tag>
+   <elementGuidId>2a60dd31-1d82-4476-a2db-593c8b3d0912</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>Words_Supplier::CreateView_Words:toggleCurrentKeywordSelectedAction</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Workbench</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d7a209d2-08bc-4a99-9b7e-10a9202d443b</testSuiteGuid>
+   <testCaseLink>
+      <guid>4700deb8-f645-4fa8-b0b4-64952c061798</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workbench/BidAnalysis_Visibility/SSTC-13060_RFPEvent_BidAnalysis_Visibility_Failure_NoPermission</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4a9123f-f841-47b5-b986-61f3064b3398</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8efc4072-16e9-4ba9-8991-b2eb3a487e86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workbench/BidAnalysis_Visibility/SSTC-13202_RFPEvent_BidAnalysis_Visibility_Failure_MF_Rule_Set_No</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e524e2ea-7d36-4c5e-a9b8-42e099431536</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b5148eee-a9d5-446e-b43c-e08916356678</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2fd387ec-3c76-4297-826f-8c58132ec258</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workbench/BidAnalysis_Visibility/SSTC-13415_RFPEvent_BidAnalysis_Visibility_Failure_FeatureToggle_Off</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ae14b25-2929-4307-889c-105b4b3961cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf09f9ee-9930-4b76-9952-51bdc3409e32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workbench/BidAnalysis_Visibility/SSTC-13058_RFPEvent_BidAnalysis_Visibility_Success</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8f468ba-c52b-4bed-a02f-d4ad351e2c1e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

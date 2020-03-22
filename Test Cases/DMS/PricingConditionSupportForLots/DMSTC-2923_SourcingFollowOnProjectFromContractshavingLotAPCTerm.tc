@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2923_SourcingFollowOnProjectFromContractshavingLotAPCTerm</name>
+   <tag></tag>
+   <comment>File Upload with xls file and element and click done once it is uploaded</comment>
+   <testCaseGuid>dcac47da-95f1-439a-8f0c-047645d895a8</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>fe3c8e9e-e3eb-4f8f-90d4-22db8982180c</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ContractWithLotAPCTerm_'</defaultValue>
+      <description></description>
+      <id>6d24f1c0-ae4f-4c83-a50d-fad27455a35c</id>
+      <masked>false</masked>
+      <name>contractName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Files/dms/ContractLotAPCContent.xlsx'</defaultValue>
+      <description></description>
+      <id>d0d02072-a24d-4533-83a7-a5c23e3a00e8</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'ContractAPCTemplateWithBasketLot'</defaultValue>
+      <description></description>
+      <id>47ccff79-2ba5-4038-8631-1b51dcda3908</id>
+      <masked>false</masked>
+      <name>contractTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'BasketLotTemplateforAPC'</defaultValue>
+      <description></description>
+      <id>d49267c8-ef16-4d7f-ac53-8782b9809884</id>
+      <masked>false</masked>
+      <name>eventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'FollowOn_EventLotWithAPCTerm_'</defaultValue>
+      <description></description>
+      <id>3e9d7aaa-3348-4f05-a2ed-9941013bb4b7</id>
+      <masked>false</masked>
+      <name>eventName</name>
+   </variable>
+</TestCaseEntity>

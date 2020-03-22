@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>copyAttachmentToProject</name>
+   <tag></tag>
+   <elementGuidId>f45b6ac4-5b8e-4926-9ef8-823a6700aceb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>Attachments_0::NoteThreadView_Attachments:addAttachmentToWorkspaceAction</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CWID</name>
+   <tag></tag>
+   <elementGuidId>f7f89d57-59fd-4a66-bbb9-c9ace4d45021</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tr[@awname='ContractId::AWRefreshRegion']/td[contains(text(),'CW')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tr[@awname='ContractId::AWRefreshRegion']/td[contains(text(),'CW')]</value>
+   </webElementProperties>
+</WebElementEntity>

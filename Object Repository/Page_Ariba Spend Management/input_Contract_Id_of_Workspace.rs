@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Contract_Id_of_Workspace</name>
+   <tag></tag>
+   <elementGuidId>9f468604-95ab-48d4-a4d4-8fbdfcb8486a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@awname='class=test.ariba.collaborate.core.ACMBasicTester$WorkspaceParameters_contractId_field=contractId::MetaForm:refreshCurrentPage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

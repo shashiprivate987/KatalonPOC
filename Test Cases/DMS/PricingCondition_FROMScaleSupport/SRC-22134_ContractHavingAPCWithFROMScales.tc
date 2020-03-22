@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SRC-22134_ContractHavingAPCWithFROMScales</name>
+   <tag></tag>
+   <comment>File Upload with xls file and element and click done once it is uploaded</comment>
+   <testCaseGuid>5112bd13-5f2a-413f-a75c-c53801bb7c87</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>adb25fa0-77c8-40bf-be4f-c24ec9715ace</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'CWFromScale_'</defaultValue>
+      <description></description>
+      <id>d046654d-b6c7-4599-8abc-72442ff841e5</id>
+      <masked>false</masked>
+      <name>contractName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Files/dms/APCContractLinesWithFROMScale.xlsx'</defaultValue>
+      <description></description>
+      <id>db1b3ed8-3d04-4ac9-8a3a-c88c281a4c28</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'contractTemplateForAPC'</defaultValue>
+      <description></description>
+      <id>91347f0f-45be-4dc6-8c4d-19dc34a4d662</id>
+      <masked>false</masked>
+      <name>contractTemplate</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoadContractTemplateHavingAPC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>230ea463-65eb-4688-b8f4-9f9998f54189</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03b5f878-3c2f-41f9-8726-518720aca0f9</id>
+      <masked>false</masked>
+      <name>contractTemplateName</name>
+   </variable>
+</TestCaseEntity>

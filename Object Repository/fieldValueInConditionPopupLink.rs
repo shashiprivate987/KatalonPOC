@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldValueInConditionPopupLink</name>
+   <tag></tag>
+   <elementGuidId>34958bbb-4e62-45d0-a917-8e8cf0e7b5cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>Expression_CB-2-0::CreateView_Expression:PopupMenuLink_1</value>
+   </webElementProperties>
+</WebElementEntity>

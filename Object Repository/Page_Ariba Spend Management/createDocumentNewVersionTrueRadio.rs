@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>createDocumentNewVersionTrueRadio</name>
+   <tag></tag>
+   <elementGuidId>670aa04a-0e8b-4f10-9c9d-90e6186ae5bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>createNewMajorVersionOnSave::DocumentPage:true</value>
+   </webElementProperties>
+</WebElementEntity>

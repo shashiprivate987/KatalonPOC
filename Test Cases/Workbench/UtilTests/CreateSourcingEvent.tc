@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateSourcingEvent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efa4ac08-9a70-4981-9dc4-b7a7040449e4</testCaseGuid>
+   <variable>
+      <defaultValue>'BidAnalysis_Visibility'</defaultValue>
+      <description></description>
+      <id>f12dbe3a-8fe4-45ca-8bdf-21376c0ff52b</id>
+      <masked>false</masked>
+      <name>eventName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74f23e02-a830-4524-89c5-ff9e85d538bd</id>
+      <masked>false</masked>
+      <name>templateName</name>
+   </variable>
+   <variable>
+      <defaultValue>'test_enablenow.xls'</defaultValue>
+      <description></description>
+      <id>8080be83-760b-47ae-97f3-8dd31186fd34</id>
+      <masked>false</masked>
+      <name>eventContentExcel</name>
+   </variable>
+</TestCaseEntity>

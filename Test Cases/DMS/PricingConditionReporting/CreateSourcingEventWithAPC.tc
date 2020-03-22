@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateSourcingEventWithAPC</name>
+   <tag></tag>
+   <comment>event type
+Event End State</comment>
+   <testCaseGuid>a3a15d0c-a052-4564-aa98-e1b6d3e33c8e</testCaseGuid>
+</TestCaseEntity>

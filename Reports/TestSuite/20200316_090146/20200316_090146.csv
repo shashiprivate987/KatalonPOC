@@ -1,0 +1,340 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite,Chrome 63.0.3239.132,,2020-03-16 09:01:48,2020-03-16 09:56:54,55m - 5.296s,FAILED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-3002_ContractHavingLotWithAPCTerm,Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:11:38,9m - 49.198s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.083s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.002s,PASSED
+"LOTTERMAPCLINK_LOC = ""//a[contains(@awname,'CW Term') and text()='View pricing conditions ']""",Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.001s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.057s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.002s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.002s,PASSED
+CW = contractName + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.002s,PASSED
+"userName = ""customersupportadmin""",Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:01:49,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:01:49,2020-03-16 09:02:17,27.847s,PASSED
+"volumeScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionsWithScales""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.000s,PASSED
+"fromScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.FromScalesInPricingCondition""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.000s,PASSED
+"appendReplaceContract = ""ariba.collaborate.util.CollaborateFeatures.AppendLineItemsInExistingContract""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.001s,PASSED
+"apcForBasketLots = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionForBasketLot""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.000s,PASSED
+"prepackMixedCase = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCases""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.001s,PASSED
+"itemHierarchy = ""ariba.sourcing.util.SourcingEventFeatures.SourcingItemHierarchy""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.000s,PASSED
+"mixedCasedPrepack = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCasesInContract""",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.001s,PASSED
+"toggleList = [volumeScaleFeature, fromScaleFeature, appendReplaceContract, prepackMixedCase, itemHierarchy, mixedCasedPrepack]",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:02:17,0.000s,PASSED
+"for ([i = 0, i < toggleList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:02:17,2020-03-16 09:07:07,4m - 50.240s,PASSED
+"mixedCaseIntegration = ""Application.AQS.ArticleIntegration.MixedCaseIntegration.Enabled""",Chrome 63.0.3239.132,,2020-03-16 09:07:07,2020-03-16 09:07:07,0.000s,PASSED
+"mixedCases = ""Application.AQS.ArticleIntegration.MixedCases.Enabled""",Chrome 63.0.3239.132,,2020-03-16 09:07:07,2020-03-16 09:07:07,0.001s,PASSED
+"realmParamList = [mixedCaseIntegration, mixedCases]",Chrome 63.0.3239.132,,2020-03-16 09:07:07,2020-03-16 09:07:07,0.000s,PASSED
+"for ([i = 0, i < realmParamList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:07:07,2020-03-16 09:08:25,1m - 17.721s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/a_TA..""))",Chrome 63.0.3239.132,,2020-03-16 09:08:25,2020-03-16 09:08:32,6.989s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_TestCentralPage/Test Central ACM""))",Chrome 63.0.3239.132,,2020-03-16 09:08:32,2020-03-16 09:08:39,7.446s,PASSED
+"scrollToElement(findTestObject(""Page_Ariba Spend Management/a_Create Workspace""), 3)",Chrome 63.0.3239.132,,2020-03-16 09:08:39,2020-03-16 09:08:40,0.937s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/a_Create Workspace""))",Chrome 63.0.3239.132,,2020-03-16 09:08:40,2020-03-16 09:08:49,9.098s,PASSED
+"setText(findTestObject(""Page_Ariba Spend Management/input_Name of Workspace__bdp8j""), CW)",Chrome 63.0.3239.132,,2020-03-16 09:08:49,2020-03-16 09:08:51,2.161s,PASSED
+"setText(findTestObject(""Page_Ariba Spend Management/input_Name of Template__x1sbod""), contractTemplate)",Chrome 63.0.3239.132,,2020-03-16 09:08:51,2020-03-16 09:08:54,2.157s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/div_Run Stager""))",Chrome 63.0.3239.132,,2020-03-16 09:08:54,2020-03-16 09:09:17,23.037s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:09:17,2020-03-16 09:10:04,47.502s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:10:04,2020-03-16 09:10:05,1.346s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/View_Project""))",Chrome 63.0.3239.132,,2020-03-16 09:10:05,2020-03-16 09:10:16,10.230s,PASSED
+common.util.aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:10:16,2020-03-16 09:10:18,1.949s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:10:18,2020-03-16 09:10:19,0.854s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon""))",Chrome 63.0.3239.132,,2020-03-16 09:10:19,2020-03-16 09:10:25,6.919s,PASSED
+"openDoc = ""Open::AbstractDocumentDownloadIcon:itemAction""",Chrome 63.0.3239.132,,2020-03-16 09:10:25,2020-03-16 09:10:25,0.000s,PASSED
+"openDocLink = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""contains"", openDoc, true)",Chrome 63.0.3239.132,,2020-03-16 09:10:25,2020-03-16 09:10:25,0.007s,PASSED
+common.util.aribakeywords.aribaClick(openDocLink),Chrome 63.0.3239.132,,2020-03-16 09:10:25,2020-03-16 09:10:37,11.566s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/Page_ASPEditContentDocument/span_Excel Import""))",Chrome 63.0.3239.132,,2020-03-16 09:10:37,2020-03-16 09:10:44,6.960s,PASSED
+"uploadDoc = ""ASCContentFrame:excelImportAction""",Chrome 63.0.3239.132,,2020-03-16 09:10:44,2020-03-16 09:10:44,0.000s,PASSED
+"uploadDocLink = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""equals"", uploadDoc, true)",Chrome 63.0.3239.132,,2020-03-16 09:10:44,2020-03-16 09:10:44,0.003s,PASSED
+common.util.aribakeywords.aribaClick(uploadDocLink),Chrome 63.0.3239.132,,2020-03-16 09:10:44,2020-03-16 09:10:51,7.474s,PASSED
+"comment(""File Upload with xls file and element and click done once it is uploaded"")",Chrome 63.0.3239.132,,2020-03-16 09:10:51,2020-03-16 09:10:51,0.004s,PASSED
+"common.util.aribakeywords.fileUpload(findTestObject(""Object Repository/Page_Ariba Spend Management/awFileUploadButton""), filePath)",Chrome 63.0.3239.132,,2020-03-16 09:10:51,2020-03-16 09:10:53,1.320s,PASSED
+"excelImportAwname = ""ASPExcelImport:importExcelDocumentAction""",Chrome 63.0.3239.132,,2020-03-16 09:10:53,2020-03-16 09:10:53,0.001s,PASSED
+"excelImportBtn = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""equals"", excelImportAwname, true)",Chrome 63.0.3239.132,,2020-03-16 09:10:53,2020-03-16 09:10:53,0.005s,PASSED
+common.util.aribakeywords.aribaClick(excelImportBtn),Chrome 63.0.3239.132,,2020-03-16 09:10:53,2020-03-16 09:11:10,17.693s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:10,2020-03-16 09:11:12,1.715s,PASSED
+termApcLink = aribakeywords.createTestObject(LOTTERMAPCLINK_LOC),Chrome 63.0.3239.132,,2020-03-16 09:11:12,2020-03-16 09:11:12,0.004s,PASSED
+"waitForElementPresent(termApcLink, 2, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:12,2020-03-16 09:11:13,0.441s,PASSED
+"verifyElementPresent(termApcLink, 2, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:13,2020-03-16 09:11:13,0.431s,PASSED
+common.util.aribakeywords.aribaClick(termApcLink),Chrome 63.0.3239.132,,2020-03-16 09:11:13,2020-03-16 09:11:22,8.612s,PASSED
+common.util.aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:11:22,2020-03-16 09:11:24,1.836s,PASSED
+driver = getWebDriver(),Chrome 63.0.3239.132,,2020-03-16 09:11:24,2020-03-16 09:11:24,0.000s,PASSED
+"verifyTextPresent(""Dec 2019 - Dec 9999"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:24,2020-03-16 09:11:25,1.165s,PASSED
+"verifyTextPresent(""To 5"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:25,2020-03-16 09:11:26,1.118s,PASSED
+"termValue = xpath(LOT_TERM_APC_PRICE_LOC)).getAttribute(""value"")",Chrome 63.0.3239.132,,2020-03-16 09:11:26,2020-03-16 09:11:27,0.916s,PASSED
+"verifyMatch(termValue, ""44"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:27,2020-03-16 09:11:27,0.004s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:11:27,2020-03-16 09:11:35,8.568s,PASSED
+common.util.aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:11:35,2020-03-16 09:11:37,1.958s,PASSED
+closeBrowser(),Chrome 63.0.3239.132,,2020-03-16 09:11:37,2020-03-16 09:11:38,0.521s,PASSED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2917_DownloadBidComparisonWithAPCLot,Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:20:39,9m - 0.910s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.002s,PASSED
+"APCLOT_LOT = ""//tr[@awname='0.3::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"APCLOT_CHILDITEM_LOC = ""//tr[@awname='0.3_0.3.1::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.001s,PASSED
+"APCLINK_LOC = ""//a[@awname='0.3_RITASHORTSTRINGIFZ000003Computed Term::RITASHORTSTRINGIFZ000003:pricingInfoDisplay']""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"EXPANDLOTBTN = ""//a[@awname='_Award_8_4_Award::AWTRowAttributeExpandoColumnRenderer:table.pivotState.toggleDetailAttributesExpanded']//div""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"BIDCOMPARISON_BTN = ""//button[@awname='ASCContentPivot:advancedPricingBidComparisonExcelExportAction']""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.001s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.001s,PASSED
+"userName = ""customersupportadmin""",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"CW = ""ACPContractWithLot_"" + System.currentTimeMillis()",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+sourcingEvent = sourcingEvent + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:11:38,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:11:38,2020-03-16 09:12:01,23.453s,PASSED
+"volumeScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionsWithScales""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"fromScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.FromScalesInPricingCondition""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"appendReplaceContract = ""ariba.collaborate.util.CollaborateFeatures.AppendLineItemsInExistingContract""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"apcForBasketLots = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionForBasketLot""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"prepackMixedCase = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCases""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"itemHierarchy = ""ariba.sourcing.util.SourcingEventFeatures.SourcingItemHierarchy""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"mixedCasedPrepack = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCasesInContract""",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"toggleList = [volumeScaleFeature, fromScaleFeature, appendReplaceContract, prepackMixedCase, itemHierarchy, mixedCasedPrepack]",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:12:01,0.000s,PASSED
+"for ([i = 0, i < toggleList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:12:01,2020-03-16 09:16:58,4m - 56.572s,PASSED
+"mixedCaseIntegration = ""Application.AQS.ArticleIntegration.MixedCaseIntegration.Enabled""",Chrome 63.0.3239.132,,2020-03-16 09:16:58,2020-03-16 09:16:58,0.000s,PASSED
+"mixedCases = ""Application.AQS.ArticleIntegration.MixedCases.Enabled""",Chrome 63.0.3239.132,,2020-03-16 09:16:58,2020-03-16 09:16:58,0.000s,PASSED
+"realmParamList = [mixedCaseIntegration, mixedCases]",Chrome 63.0.3239.132,,2020-03-16 09:16:58,2020-03-16 09:16:58,0.000s,PASSED
+"for ([i = 0, i < realmParamList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:16:58,2020-03-16 09:18:17,1m - 19.237s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/CreateSourcingEvent""), [""sourcingEvent"":sourcingEvent, ""eventType"":eventType, ""rfpEventTemplate"":rfpEventTemplate, ""eventContentFileName"":eventContentFileName, ... ], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:18:17,2020-03-16 09:20:39,2m - 21.460s,FAILED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2920_CreateContractFromEventContentWithAPCLot,Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:27:33,6m - 53.867s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.001s,PASSED
+"APCLOT_LOT = ""//tr[@awname='0.3::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+"APCLOT_CHILDITEM_LOC = ""//tr[@awname='0.3_0.3.1::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+"APCLINK_LOC = ""//a[@awname='0.3_RITASHORTSTRINGIFZ000003Computed Term::RITASHORTSTRINGIFZ000003:pricingInfoDisplay']""",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.001s,PASSED
+"EXPANDLOTBTN = ""//a[@awname='_Award_8_4_Award::AWTRowAttributeExpandoColumnRenderer:table.pivotState.toggleDetailAttributesExpanded']//div""",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.001s,PASSED
+"userName = ""customersupportadmin""",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+"CW = ""ACPContractWithLot_"" + System.currentTimeMillis()",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+sourcingEvent = sourcingEvent + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:20:39,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:20:39,2020-03-16 09:21:02,23.057s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/CreateSourcingEvent""), [""sourcingEvent"":sourcingEvent, ""eventType"":eventType, ""rfpEventTemplate"":rfpEventTemplate, ""eventContentFileName"":eventContentFileName, ... ], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:21:02,2020-03-16 09:24:58,3m - 56.579s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/a_Buyer Monitoring Page""))",Chrome 63.0.3239.132,,2020-03-16 09:24:58,2020-03-16 09:25:10,11.308s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:25:10,2020-03-16 09:25:12,1.943s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:25:12,2020-03-16 09:25:13,1.148s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:25:13,2020-03-16 09:25:20,6.839s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:25:20,2020-03-16 09:25:26,6.691s,FAILED
+catch (Exception e),Chrome 63.0.3239.132,,2020-03-16 09:25:26,2020-03-16 09:25:26,0.001s,PASSED
+expandPlus = aribakeywords.createTestObject(EXPANDLOTBTN),Chrome 63.0.3239.132,,2020-03-16 09:25:26,2020-03-16 09:25:26,0.000s,PASSED
+"scrollToElement(expandPlus, 3)",Chrome 63.0.3239.132,,2020-03-16 09:25:26,2020-03-16 09:25:27,0.947s,PASSED
+aribakeywords.aribaClick(expandPlus),Chrome 63.0.3239.132,,2020-03-16 09:25:27,2020-03-16 09:25:34,6.512s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:25:34,2020-03-16 09:25:36,1.649s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/span_Contract_w-pulldown-icon""))",Chrome 63.0.3239.132,,2020-03-16 09:25:36,2020-03-16 09:25:43,7.039s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/form_Pricing trendsLoading...i""))",Chrome 63.0.3239.132,,2020-03-16 09:25:43,2020-03-16 09:25:51,8.635s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/label_Submit Initial Bid_w-rdo""))",Chrome 63.0.3239.132,,2020-03-16 09:25:51,2020-03-16 09:25:59,7.375s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/span_Create New Contract""))",Chrome 63.0.3239.132,,2020-03-16 09:25:59,2020-03-16 09:26:06,6.939s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/a_Contract Workspace (Procurem""))",Chrome 63.0.3239.132,,2020-03-16 09:26:06,2020-03-16 09:26:14,8.848s,PASSED
+"setText(findTestObject(""Object Repository/input___ihgt1d""), CW)",Chrome 63.0.3239.132,,2020-03-16 09:26:14,2020-03-16 09:26:18,3.156s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/label_Yes_w-rdo w-rdo-dsize""))",Chrome 63.0.3239.132,,2020-03-16 09:26:18,2020-03-16 09:26:25,7.649s,PASSED
+"setText(findTestObject(""Object Repository/input___1ymp9c""), ""06/16/2019"")",Chrome 63.0.3239.132,,2020-03-16 09:26:25,2020-03-16 09:26:28,2.462s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/a_commodity_code""), 5, OPTIONAL))",Chrome 63.0.3239.132,,2020-03-16 09:26:28,2020-03-16 09:26:39,11.721s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/label_SignTemplate154462011136""))",Chrome 63.0.3239.132,,2020-03-16 09:26:39,2020-03-16 09:26:46,6.914s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/span_Create""))",Chrome 63.0.3239.132,,2020-03-16 09:26:46,2020-03-16 09:27:01,14.232s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/span_Documents_w-pml-icon""))",Chrome 63.0.3239.132,,2020-03-16 09:27:01,2020-03-16 09:27:08,7.050s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/form_BackAlert ()CustomizeAnal""))",Chrome 63.0.3239.132,,2020-03-16 09:27:08,2020-03-16 09:27:19,11.792s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:27:19,2020-03-16 09:27:21,1.838s,PASSED
+driver = getWebDriver(),Chrome 63.0.3239.132,,2020-03-16 09:27:21,2020-03-16 09:27:21,0.000s,PASSED
+lotSize = xpath(APCLOT_LOT)).size(),Chrome 63.0.3239.132,,2020-03-16 09:27:21,2020-03-16 09:27:22,0.442s,PASSED
+"verifyMatch(lotSize.toString(), ""1"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:27:22,2020-03-16 09:27:22,0.002s,PASSED
+childItem = xpath(APCLOT_CHILDITEM_LOC)).size(),Chrome 63.0.3239.132,,2020-03-16 09:27:22,2020-03-16 09:27:22,0.437s,PASSED
+"verifyMatch(childItem.toString(), ""1"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:27:22,2020-03-16 09:27:22,0.002s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:27:22,2020-03-16 09:27:24,1.820s,PASSED
+apcLink = aribakeywords.createTestObject(APCLINK_LOC),Chrome 63.0.3239.132,,2020-03-16 09:27:24,2020-03-16 09:27:24,0.001s,PASSED
+"verifyElementPresent(apcLink, 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:27:24,2020-03-16 09:27:33,8.668s,FAILED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2922_AppendContractFromEventContentHavingAPCLot,Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.225s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.002s,PASSED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2915_CreateEventHavingBasketLotWithAPCTerms,Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:30:34,3m - 1.063s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.001s,PASSED
+"APCRULE_LOC = ""//label[@awname='AllowAdvancedPricingConditions_selectedItem::AdvancedPricingConditionRuleView_AllowAdvancedPricingConditions:currChoice']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"VALIDITYPERIOD_LOC = ""//div[@awname='AdvancedPricingConditionRule.ValidityPeriodType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodType:itemList']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"STARTDATE_LOC = ""//input[@awname='AdvancedPricingConditionRule.ValidityPeriodStartDate::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodStartDate:textFieldAction_1']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"PERIOD_LOC = ""//input[@awname='AdvancedPricingConditionRule.ValidityPeriodDuration::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodDuration:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"SCALETYPE_LOC = ""//div[@awname='AdvancedPricingConditionRule.VolumeScaleType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.VolumeScaleType:itemList']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"SCALE_LOC = ""//input[@awname='AdvancedPricingConditionRule.Volumes::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.Volumes:newEntry']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"APCLOT_LOC = ""//tr[@awname='0.4::AWRefreshRegion']//a//b[text()='Basket Lot']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"LOTCHILDITEM_LOC = ""//tr[@awname='0.4_0.4.1::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"APCLINK_LOC = ""//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.001s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"userName = ""customersupportadmin""",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+sourcingEvent = sourcingEvent + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:33,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:27:33,2020-03-16 09:27:57,23.748s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/CreateSourcingEvent""), [""sourcingEvent"":sourcingEvent, ""eventType"":eventType, ""rfpEventTemplate"":rfpEventTemplate, ""eventContentFileName"":eventContentFileName, ... ], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:27:57,2020-03-16 09:29:27,1m - 30.299s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/a_Buyer Monitoring Page""))",Chrome 63.0.3239.132,,2020-03-16 09:29:27,2020-03-16 09:29:36,8.923s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:29:36,2020-03-16 09:29:38,1.922s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:29:38,2020-03-16 09:29:39,0.946s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/button_action_draft""), 3)",Chrome 63.0.3239.132,,2020-03-16 09:29:39,2020-03-16 09:29:39,0.437s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/button_action_draft""))",Chrome 63.0.3239.132,,2020-03-16 09:29:39,2020-03-16 09:29:46,7.118s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/edit_event_link""))",Chrome 63.0.3239.132,,2020-03-16 09:29:46,2020-03-16 09:29:57,10.147s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(APCRULE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:29:57,2020-03-16 09:29:57,0.435s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(VALIDITYPERIOD_LOC), 3, CONTINUE_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:29:57,2020-03-16 09:29:57,0.433s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(STARTDATE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:29:57,2020-03-16 09:29:58,0.577s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(PERIOD_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:29:58,2020-03-16 09:29:58,0.431s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(SCALETYPE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:29:58,2020-03-16 09:29:59,0.454s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(SCALE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:29:59,2020-03-16 09:29:59,0.442s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/Content - Draft""))",Chrome 63.0.3239.132,,2020-03-16 09:29:59,2020-03-16 09:30:08,8.588s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:30:08,2020-03-16 09:30:10,1.881s,PASSED
+driver = getWebDriver(),Chrome 63.0.3239.132,,2020-03-16 09:30:10,2020-03-16 09:30:10,0.000s,PASSED
+lotSize = xpath(APCLOT_LOC)).size(),Chrome 63.0.3239.132,,2020-03-16 09:30:10,2020-03-16 09:30:10,0.431s,PASSED
+"verifyMatch(lotSize.toString(), ""1"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:10,2020-03-16 09:30:10,0.001s,PASSED
+childItem = xpath(LOTCHILDITEM_LOC)).size(),Chrome 63.0.3239.132,,2020-03-16 09:30:10,2020-03-16 09:30:11,0.468s,PASSED
+"verifyMatch(childItem.toString(), ""1"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:11,2020-03-16 09:30:11,0.001s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:11,2020-03-16 09:30:13,2.010s,PASSED
+apcLink = aribakeywords.createTestObject(APCLINK_LOC),Chrome 63.0.3239.132,,2020-03-16 09:30:13,2020-03-16 09:30:13,0.001s,PASSED
+"verifyElementPresent(apcLink, 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:13,2020-03-16 09:30:13,0.431s,PASSED
+aribakeywords.aribaClick(apcLink),Chrome 63.0.3239.132,,2020-03-16 09:30:13,2020-03-16 09:30:22,8.543s,PASSED
+"verifyTextPresent(""Dec 2019 - Dec 9999"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:22,2020-03-16 09:30:23,1.287s,PASSED
+"verifyTextPresent(""To 5"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:23,2020-03-16 09:30:24,1.137s,PASSED
+"termValue = xpath(LOT_TERM_APC_PRICE_LOC)).getAttribute(""value"")",Chrome 63.0.3239.132,,2020-03-16 09:30:24,2020-03-16 09:30:25,0.938s,PASSED
+"verifyMatch(termValue, ""44"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:25,2020-03-16 09:30:25,0.002s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:30:25,2020-03-16 09:30:33,8.261s,PASSED
+closeBrowser(),Chrome 63.0.3239.132,,2020-03-16 09:30:33,2020-03-16 09:30:34,0.553s,PASSED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2923_SourcingFollowOnProjectFromContractshavingLotAPCTerm,Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:49:04,18m - 30.408s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.001s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.000s,PASSED
+"LOTTERMAPCLINK_LOC = ""//a[contains(@awname,'CW Term') and text()='View pricing conditions ']""",Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.000s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.001s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.000s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.000s,PASSED
+CW = contractName + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.000s,PASSED
+"userName = ""customersupportadmin""",Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:30:34,0.001s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:30:34,2020-03-16 09:31:07,32.983s,PASSED
+"volumeScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionsWithScales""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"fromScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.FromScalesInPricingCondition""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"appendReplaceContract = ""ariba.collaborate.util.CollaborateFeatures.AppendLineItemsInExistingContract""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"apcForBasketLots = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionForBasketLot""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"prepackMixedCase = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCases""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"itemHierarchy = ""ariba.sourcing.util.SourcingEventFeatures.SourcingItemHierarchy""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"mixedCasedPrepack = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCasesInContract""",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.001s,PASSED
+"toggleList = [volumeScaleFeature, fromScaleFeature, appendReplaceContract, prepackMixedCase, itemHierarchy, mixedCasedPrepack]",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:31:07,0.000s,PASSED
+"for ([i = 0, i < toggleList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:31:07,2020-03-16 09:36:53,5m - 46.443s,PASSED
+"mixedCaseIntegration = ""Application.AQS.ArticleIntegration.MixedCaseIntegration.Enabled""",Chrome 63.0.3239.132,,2020-03-16 09:36:53,2020-03-16 09:36:53,0.000s,PASSED
+"mixedCases = ""Application.AQS.ArticleIntegration.MixedCases.Enabled""",Chrome 63.0.3239.132,,2020-03-16 09:36:53,2020-03-16 09:36:53,0.000s,PASSED
+"realmParamList = [mixedCaseIntegration, mixedCases]",Chrome 63.0.3239.132,,2020-03-16 09:36:53,2020-03-16 09:36:53,0.000s,PASSED
+"for ([i = 0, i < realmParamList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:36:53,2020-03-16 09:38:26,1m - 32.152s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/a_TA..""))",Chrome 63.0.3239.132,,2020-03-16 09:38:26,2020-03-16 09:38:33,7.671s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_TestCentralPage/Test Central ACM""))",Chrome 63.0.3239.132,,2020-03-16 09:38:33,2020-03-16 09:38:41,7.734s,PASSED
+"scrollToElement(findTestObject(""Page_Ariba Spend Management/a_Create Workspace""), 3)",Chrome 63.0.3239.132,,2020-03-16 09:38:41,2020-03-16 09:38:42,1.084s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/a_Create Workspace""))",Chrome 63.0.3239.132,,2020-03-16 09:38:42,2020-03-16 09:38:50,8.381s,PASSED
+"setText(findTestObject(""Page_Ariba Spend Management/input_Name of Workspace__bdp8j""), CW)",Chrome 63.0.3239.132,,2020-03-16 09:38:50,2020-03-16 09:38:55,4.872s,PASSED
+"setText(findTestObject(""Page_Ariba Spend Management/input_Name of Template__x1sbod""), contractTemplate)",Chrome 63.0.3239.132,,2020-03-16 09:38:55,2020-03-16 09:39:00,4.769s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/div_Run Stager""))",Chrome 63.0.3239.132,,2020-03-16 09:39:00,2020-03-16 09:39:23,22.515s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:39:23,2020-03-16 09:40:21,58.575s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:40:21,2020-03-16 09:40:26,4.616s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Page_Ariba Spend Management/View_Project""))",Chrome 63.0.3239.132,,2020-03-16 09:40:26,2020-03-16 09:40:37,10.948s,PASSED
+common.util.aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:40:37,2020-03-16 09:40:39,1.853s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:40:39,2020-03-16 09:40:40,1.855s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Documents_w-pml-icon""))",Chrome 63.0.3239.132,,2020-03-16 09:40:40,2020-03-16 09:40:48,7.757s,PASSED
+"openDoc = ""Open::AbstractDocumentDownloadIcon:itemAction""",Chrome 63.0.3239.132,,2020-03-16 09:40:48,2020-03-16 09:40:48,0.000s,PASSED
+"openDocLink = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""contains"", openDoc, true)",Chrome 63.0.3239.132,,2020-03-16 09:40:48,2020-03-16 09:40:48,0.006s,PASSED
+common.util.aribakeywords.aribaClick(openDocLink),Chrome 63.0.3239.132,,2020-03-16 09:40:48,2020-03-16 09:41:00,11.947s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/Page_ASPEditContentDocument/span_Excel Import""))",Chrome 63.0.3239.132,,2020-03-16 09:41:00,2020-03-16 09:41:08,7.640s,PASSED
+"uploadDoc = ""ASCContentFrame:excelImportAction""",Chrome 63.0.3239.132,,2020-03-16 09:41:08,2020-03-16 09:41:08,0.000s,PASSED
+"uploadDocLink = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""equals"", uploadDoc, true)",Chrome 63.0.3239.132,,2020-03-16 09:41:08,2020-03-16 09:41:08,0.005s,PASSED
+common.util.aribakeywords.aribaClick(uploadDocLink),Chrome 63.0.3239.132,,2020-03-16 09:41:08,2020-03-16 09:41:16,8.177s,PASSED
+"comment(""File Upload with xls file and element and click done once it is uploaded"")",Chrome 63.0.3239.132,,2020-03-16 09:41:16,2020-03-16 09:41:16,0.002s,PASSED
+"common.util.aribakeywords.fileUpload(findTestObject(""Object Repository/Page_Ariba Spend Management/awFileUploadButton""), filePath)",Chrome 63.0.3239.132,,2020-03-16 09:41:16,2020-03-16 09:41:17,1.426s,PASSED
+"excelImportAwname = ""ASPExcelImport:importExcelDocumentAction""",Chrome 63.0.3239.132,,2020-03-16 09:41:17,2020-03-16 09:41:17,0.000s,PASSED
+"excelImportBtn = modifyObjectProperty(findTestObject(""Object Repository/Page_Ariba Spend Management/span_Import""), ""awname"", ""equals"", excelImportAwname, true)",Chrome 63.0.3239.132,,2020-03-16 09:41:17,2020-03-16 09:41:17,0.005s,PASSED
+common.util.aribakeywords.aribaClick(excelImportBtn),Chrome 63.0.3239.132,,2020-03-16 09:41:17,2020-03-16 09:41:36,18.327s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:41:36,2020-03-16 09:41:40,4.175s,PASSED
+termApcLink = aribakeywords.createTestObject(LOTTERMAPCLINK_LOC),Chrome 63.0.3239.132,,2020-03-16 09:41:40,2020-03-16 09:41:40,0.000s,PASSED
+"waitForElementPresent(termApcLink, 2, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:41:40,2020-03-16 09:41:40,0.518s,PASSED
+"verifyElementPresent(termApcLink, 2, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:41:40,2020-03-16 09:41:41,0.463s,PASSED
+common.util.aribakeywords.aribaClick(termApcLink),Chrome 63.0.3239.132,,2020-03-16 09:41:41,2020-03-16 09:41:49,7.826s,PASSED
+common.util.aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:41:49,2020-03-16 09:41:51,1.946s,PASSED
+driver = getWebDriver(),Chrome 63.0.3239.132,,2020-03-16 09:41:51,2020-03-16 09:41:51,0.000s,PASSED
+"verifyTextPresent(""Dec 2019 - Dec 9999"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:41:51,2020-03-16 09:41:52,1.781s,PASSED
+"verifyTextPresent(""To 5"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:41:52,2020-03-16 09:41:54,1.820s,PASSED
+"termValue = xpath(LOT_TERM_APC_PRICE_LOC)).getAttribute(""value"")",Chrome 63.0.3239.132,,2020-03-16 09:41:54,2020-03-16 09:41:55,1.031s,PASSED
+"verifyMatch(termValue, ""44"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:41:55,2020-03-16 09:41:55,0.002s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:41:55,2020-03-16 09:42:04,8.271s,PASSED
+common.util.aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:42:04,2020-03-16 09:42:06,2.045s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/span_Publish""))",Chrome 63.0.3239.132,,2020-03-16 09:42:06,2020-03-16 09:42:16,10.735s,PASSED
+"common.util.aribakeywords.aribaClick(findTestObject(""Object Repository/span_OK""))",Chrome 63.0.3239.132,,2020-03-16 09:42:16,2020-03-16 09:49:04,6m - 47.874s,FAILED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2921_ReplaceContractFromEventContentHavingAPCLot,Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:53:22,4m - 18.069s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.002s,PASSED
+"OPENDOC_LOC = ""Open::AbstractDocumentDownloadIcon:itemAction""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"UPLOADDOC_LOC = ""ASCContentFrame:excelImportAction""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"EXCEL_IMPORT_LOC = ""ASPExcelImport:importExcelDocumentAction""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"OPENCLID_LOC = ""Open::AbstractDocumentDownloadIcon:itemAction""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"APCLOT_LOT = ""//tr[@awname='0.3::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"APCLOT_CHILDITEM_LOC = ""//tr[@awname='0.3_0.3.1::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.001s,PASSED
+"APCLINK_LOC = ""//a[@awname='0.3_RITASHORTSTRINGIFZ000003Computed Term::RITASHORTSTRINGIFZ000003:pricingInfoDisplay']""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"EXPANDLOTBTN = ""//a[@awname='_Award_8_4_Award::AWTRowAttributeExpandoColumnRenderer:table.pivotState.toggleDetailAttributesExpanded']//div""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"clid_Editability_Param = ""Application.ACM.EnableEditingForPricingConditionAtContractContentHeader=true""",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+CW = contractName + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+sourcingEvent = sourcingEvent + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:04,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:49:04,2020-03-16 09:49:26,21.790s,PASSED
+"volumeScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionsWithScales""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"fromScaleFeature = ""ariba.sourcing.util.SourcingEventFeatures.FromScalesInPricingCondition""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"appendReplaceContract = ""ariba.collaborate.util.CollaborateFeatures.AppendLineItemsInExistingContract""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"apcForBasketLots = ""ariba.sourcing.util.SourcingEventFeatures.PricingConditionForBasketLot""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"prepackMixedCase = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCases""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"itemHierarchy = ""ariba.sourcing.util.SourcingEventFeatures.SourcingItemHierarchy""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"mixedCasedPrepack = ""ariba.sourcing.util.RetailSourcingFeatures.PrePackAndMixedCasesInContract""",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.000s,PASSED
+"toggleList = [volumeScaleFeature, fromScaleFeature, appendReplaceContract, prepackMixedCase, itemHierarchy, mixedCasedPrepack]",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:49:26,0.001s,PASSED
+"for ([i = 0, i < toggleList.size(), (i++)])",Chrome 63.0.3239.132,,2020-03-16 09:49:26,2020-03-16 09:53:22,3m - 56.079s,FAILED
+,,,,,,
+Test Cases/DMS/PricingConditionSupportForLots - Copy/DMSTC-2916_EventContentSheetExport,Chrome 63.0.3239.132,,2020-03-16 09:53:22,2020-03-16 09:56:53,3m - 30.735s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 63.0.3239.132,,2020-03-16 09:53:22,2020-03-16 09:53:22,0.001s,PASSED
+"APCRULE_LOC = ""//label[@awname='AllowAdvancedPricingConditions_selectedItem::AdvancedPricingConditionRuleView_AllowAdvancedPricingConditions:currChoice']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"VALIDITYPERIOD_LOC = ""//div[@awname='AdvancedPricingConditionRule.ValidityPeriodType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodType:itemList']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"STARTDATE_LOC = ""//input[@awname='AdvancedPricingConditionRule.ValidityPeriodStartDate::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodStartDate:textFieldAction_1']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"PERIOD_LOC = ""//input[@awname='AdvancedPricingConditionRule.ValidityPeriodDuration::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.ValidityPeriodDuration:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.001s,PASSED
+"SCALETYPE_LOC = ""//div[@awname='AdvancedPricingConditionRule.VolumeScaleType::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.VolumeScaleType:itemList']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"SCALE_LOC = ""//input[@awname='AdvancedPricingConditionRule.Volumes::AdvancedPricingConditionRuleView_AdvancedPricingConditionRule.Volumes:newEntry']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"APCLOT_LOC = ""//tr[@awname='0.4::AWRefreshRegion']//a//b[text()='Basket Lot']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"LOTCHILDITEM_LOC = ""//tr[@awname='0.4_0.4.1::AWRefreshRegion']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"APCLINK_LOC = ""//a[@awname='0.4_RITASHORTSTRINGIFZ000002::RITASHORTSTRINGIFZ000002:pricingInfoDisplay']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"LOT_TERM_APC_PRICE_LOC = ""//input[@awname='_DerivedStringValue::PCCostTermView_DerivedStringValue:fieldValue']""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+service = baseURL,Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+realm = realm,Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"appLoginUrl = service + ""/Sourcing/Main?realm="" + realm",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"userName = ""customersupportadmin""",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.001s,PASSED
+sourcingEvent = sourcingEvent + System.currentTimeMillis(),Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:23,0.000s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/LoginIntoApp""), [""appLoginUrl"":appLoginUrl, ""userName"":userName], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:53:23,2020-03-16 09:53:48,25.005s,PASSED
+"callTestCase(findTestCase(""DMS/UtilTests/CreateSourcingEvent""), [""sourcingEvent"":sourcingEvent, ""eventType"":eventType, ""rfpEventTemplate"":rfpEventTemplate, ""eventContentFileName"":eventContentFileName, ... ], STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:53:48,2020-03-16 09:55:31,1m - 43.630s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/a_Buyer Monitoring Page""))",Chrome 63.0.3239.132,,2020-03-16 09:55:31,2020-03-16 09:55:40,8.706s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:55:40,2020-03-16 09:55:42,1.862s,PASSED
+refresh(),Chrome 63.0.3239.132,,2020-03-16 09:55:42,2020-03-16 09:55:43,1.060s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/button_action_draft""), 3)",Chrome 63.0.3239.132,,2020-03-16 09:55:43,2020-03-16 09:55:43,0.447s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/button_action_draft""))",Chrome 63.0.3239.132,,2020-03-16 09:55:43,2020-03-16 09:55:50,6.978s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/edit_event_link""))",Chrome 63.0.3239.132,,2020-03-16 09:55:50,2020-03-16 09:55:59,8.873s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(APCRULE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:55:59,2020-03-16 09:56:00,0.567s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(VALIDITYPERIOD_LOC), 3, CONTINUE_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:00,2020-03-16 09:56:00,0.512s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(STARTDATE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:00,2020-03-16 09:56:01,0.443s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(PERIOD_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:01,2020-03-16 09:56:01,0.480s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(SCALETYPE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:01,2020-03-16 09:56:02,0.510s,PASSED
+"verifyElementPresent(aribakeywords.createTestObject(SCALE_LOC), 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:02,2020-03-16 09:56:02,0.514s,PASSED
+"aribakeywords.aribaClick(findTestObject(""Object Repository/Content - Draft""))",Chrome 63.0.3239.132,,2020-03-16 09:56:02,2020-03-16 09:56:11,8.890s,PASSED
+aribakeywords.waitForPageToLoad(3),Chrome 63.0.3239.132,,2020-03-16 09:56:11,2020-03-16 09:56:13,1.980s,PASSED
+driver = getWebDriver(),Chrome 63.0.3239.132,,2020-03-16 09:56:13,2020-03-16 09:56:13,0.001s,PASSED
+lotSize = xpath(APCLOT_LOC)).size(),Chrome 63.0.3239.132,,2020-03-16 09:56:13,2020-03-16 09:56:14,0.515s,PASSED
+"verifyMatch(lotSize.toString(), ""1"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:14,2020-03-16 09:56:14,0.001s,PASSED
+childItem = xpath(LOTCHILDITEM_LOC)).size(),Chrome 63.0.3239.132,,2020-03-16 09:56:14,2020-03-16 09:56:14,0.496s,PASSED
+"verifyMatch(childItem.toString(), ""1"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:14,2020-03-16 09:56:14,0.001s,PASSED
+"verifyTextPresent(""View pricing conditions"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:14,2020-03-16 09:56:16,2.284s,PASSED
+apcLink = aribakeywords.createTestObject(APCLINK_LOC),Chrome 63.0.3239.132,,2020-03-16 09:56:16,2020-03-16 09:56:16,0.001s,PASSED
+"verifyElementPresent(apcLink, 3, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:16,2020-03-16 09:56:17,0.487s,PASSED
+aribakeywords.aribaClick(apcLink),Chrome 63.0.3239.132,,2020-03-16 09:56:17,2020-03-16 09:56:27,10.409s,PASSED
+"verifyTextPresent(""Dec 2019 - Dec 9999"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:27,2020-03-16 09:56:29,1.460s,PASSED
+"verifyTextPresent(""To 5"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:29,2020-03-16 09:56:30,1.371s,PASSED
+"termValue = xpath(LOT_TERM_APC_PRICE_LOC)).getAttribute(""value"")",Chrome 63.0.3239.132,,2020-03-16 09:56:30,2020-03-16 09:56:31,0.882s,PASSED
+"verifyMatch(termValue, ""44"", false, STOP_ON_FAILURE)",Chrome 63.0.3239.132,,2020-03-16 09:56:31,2020-03-16 09:56:31,0.001s,PASSED
+try,Chrome 63.0.3239.132,,2020-03-16 09:56:31,2020-03-16 09:56:39,7.725s,PASSED
+"aribakeywords.aribaClick(aribakeywords.createTestObject(""//button[@awname='ASCContentFrame:excelImportAction']""))",Chrome 63.0.3239.132,,2020-03-16 09:56:39,2020-03-16 09:56:48,9.042s,PASSED
+usrDir = getProjectDir(),Chrome 63.0.3239.132,,2020-03-16 09:56:48,2020-03-16 09:56:48,0.001s,PASSED
+"fileToBeDwnld = aribakeywords.createTestObject(""//a[@awname='ASPExcelImport:exportExcelDocumentAction']"")",Chrome 63.0.3239.132,,2020-03-16 09:56:48,2020-03-16 09:56:48,0.000s,PASSED
+"excelName = sourcingEvent.trim() + "".xls""",Chrome 63.0.3239.132,,2020-03-16 09:56:48,2020-03-16 09:56:48,0.000s,PASSED
+"aribakeywords.downloadFile(fileToBeDwnld, excelName, 3, 3)",Chrome 63.0.3239.132,,2020-03-16 09:56:48,2020-03-16 09:56:53,5.350s,ERROR

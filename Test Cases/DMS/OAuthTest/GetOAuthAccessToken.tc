@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetOAuthAccessToken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af53856f-886f-4881-9d60-4f6a976a93ec</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchBox</name>
+   <tag></tag>
+   <elementGuidId>9f23fac0-7ecf-4335-8996-85d202345b1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>ariba.collaborate.widgets.SlimSearchFilterHeader::SlimSearchBox:searchAction</value>
+   </webElementProperties>
+</WebElementEntity>

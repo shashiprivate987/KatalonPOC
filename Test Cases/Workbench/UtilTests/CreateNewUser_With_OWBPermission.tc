@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateNewUser_With_OWBPermission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f6d551c-edac-456e-a37c-97c407ccfde9</testCaseGuid>
+   <variable>
+      <defaultValue>'OWBAutomationUser01'</defaultValue>
+      <description></description>
+      <id>d668ffff-33b6-4f3c-aead-3546c921501c</id>
+      <masked>false</masked>
+      <name>NewUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Event Administrator,SAP Enable Now User,Optimization Workbench Admin,Optimization Workbench User'</defaultValue>
+      <description></description>
+      <id>584ae023-6709-46d4-a6b6-4f46ea2c1ace</id>
+      <masked>false</masked>
+      <name>Group</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadDocumentProjectNameField</name>
+   <tag></tag>
+   <elementGuidId>ba699ba8-90d8-4714-83bf-4c5b7fef86c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.ACMBasicTester$UploadDocumentForProjectArgs_ProjectName_field=ProjectName::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

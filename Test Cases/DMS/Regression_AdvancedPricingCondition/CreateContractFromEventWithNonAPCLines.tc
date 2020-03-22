@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateContractFromEventWithNonAPCLines</name>
+   <tag></tag>
+   <comment>create new contract</comment>
+   <testCaseGuid>fb38c95a-75c4-42bf-b0c8-70b39cf9c4a6</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>874501cb-b291-4d32-ac16-49b6e0931e49</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'EventWIthLineWithoutAPC'</defaultValue>
+      <description></description>
+      <id>ce3f29ab-03a8-48c1-aca0-ac2cf43d8b70</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>5e623687-8b28-4130-9c11-d95ce99430a2</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SourcingTemplatewithAPC'</defaultValue>
+      <description></description>
+      <id>f39d8643-8a7d-4d2c-9ffb-318db792c653</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'EventContentWIthLineWithoutAPC.xls'</defaultValue>
+      <description></description>
+      <id>4386dc2f-80db-4113-acb3-9fa3fcb65408</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>b6a75b8c-1754-495e-aa92-5602fd5eb306</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e8c9822a-1bd6-4dbc-bf5a-b839c38da321</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+</TestCaseEntity>

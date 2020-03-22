@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldTypeTemplateTextBox</name>
+   <tag></tag>
+   <elementGuidId>39292499-4a45-4935-b9d4-c4cfc0525544</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.admin.server.customization.stager.CustomizationObjectsStager$CreateFlexFieldStagerParams_fieldTypeTemplate_field=fieldTypeTemplate::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

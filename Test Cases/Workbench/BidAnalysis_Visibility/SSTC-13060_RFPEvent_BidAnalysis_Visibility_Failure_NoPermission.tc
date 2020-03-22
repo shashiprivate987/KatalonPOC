@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SSTC-13060_RFPEvent_BidAnalysis_Visibility_Failure_NoPermission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c140901e-4956-4082-bd59-930fe6a1f460</testCaseGuid>
+   <variable>
+      <defaultValue>'AutomationUser01'</defaultValue>
+      <description></description>
+      <id>e4a9123f-f841-47b5-b986-61f3064b3398</id>
+      <masked>false</masked>
+      <name>NewUserName</name>
+   </variable>
+</TestCaseEntity>

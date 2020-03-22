@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SSTC-13058_RFPEvent_BidAnalysis_Visibility_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fd65ae9-80aa-47ce-bddc-20d5ac978613</testCaseGuid>
+   <variable>
+      <defaultValue>'OWBAutomationUser01'</defaultValue>
+      <description></description>
+      <id>e8f468ba-c52b-4bed-a02f-d4ad351e2c1e</id>
+      <masked>false</masked>
+      <name>NewUserName</name>
+   </variable>
+</TestCaseEntity>

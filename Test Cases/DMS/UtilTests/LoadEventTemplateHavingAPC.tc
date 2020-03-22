@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoadEventTemplateHavingAPC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>797f3c1d-74bf-44c6-9b38-35fe8fff0112</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8829942d-1857-4c49-b843-ba415071ebcc</id>
+      <masked>false</masked>
+      <name>rfpTemplateName</name>
+   </variable>
+</TestCaseEntity>

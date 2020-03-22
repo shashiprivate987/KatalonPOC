@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_TemplateRadioButton</name>
+   <tag></tag>
+   <elementGuidId>7e1da26f-0b6b-4261-aa9b-814e51c9430b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@awname = 'class=test.ariba.collaborate.core.ACMBasicTester$ProjectParameters_Workspace_field=Workspace_selection_Template::RadioButtonList:value']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.ACMBasicTester$ProjectParameters_Workspace_field=Workspace_selection_Template::RadioButtonList:value</value>
+   </webElementProperties>
+</WebElementEntity>

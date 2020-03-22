@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>unzipFileNameField</name>
+   <tag></tag>
+   <elementGuidId>778cf908-6699-4173-bbab-7129ed9b8f1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>class=test.ariba.collaborate.core.UnzipTesting$UnzipDocumentParam_ZipFileName_field=ZipFileName::MetaForm:refreshCurrentPage</value>
+   </webElementProperties>
+</WebElementEntity>

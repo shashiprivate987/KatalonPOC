@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2704_APCRuleEditabilityAtCLIDHeaderAttribute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45ad5ada-b7fa-427f-b4c5-54286d5e2c1d</testCaseGuid>
+   <variable>
+      <defaultValue>'CW_'</defaultValue>
+      <description></description>
+      <id>5f870aea-fe82-4200-a877-3f8780675db5</id>
+      <masked>false</masked>
+      <name>contractName</name>
+   </variable>
+   <variable>
+      <defaultValue>'contractTemplateForAPC'</defaultValue>
+      <description></description>
+      <id>eb205d8b-53e3-4917-afa5-0abb7560d009</id>
+      <masked>false</masked>
+      <name>contractTemplate</name>
+   </variable>
+</TestCaseEntity>

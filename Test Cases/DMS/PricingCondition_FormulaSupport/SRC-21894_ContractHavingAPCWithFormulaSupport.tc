@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SRC-21894_ContractHavingAPCWithFormulaSupport</name>
+   <tag></tag>
+   <comment>File Upload with xls file and element and click done once it is uploaded</comment>
+   <testCaseGuid>69f7bd39-7236-49f2-b15d-88edd6ecec69</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>1fa23b59-13ff-462e-8abf-2911d887166d</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ContractWithCustomFormula_'</defaultValue>
+      <description></description>
+      <id>988d9423-c1dc-44a2-876f-19c26212df5a</id>
+      <masked>false</masked>
+      <name>contractName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Files/dms/APCContractLinesWithCustomFormula.xlsx'</defaultValue>
+      <description></description>
+      <id>8e9a6e84-8f17-4c6a-a060-c0224c1bfdf4</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'contractTemplateForAPC'</defaultValue>
+      <description></description>
+      <id>e2496086-a74a-4f4b-9fb2-9096b5c1a347</id>
+      <masked>false</masked>
+      <name>contractTemplate</name>
+   </variable>
+</TestCaseEntity>

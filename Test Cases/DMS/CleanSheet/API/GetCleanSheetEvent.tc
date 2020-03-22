@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetCleanSheetEvent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbd60660-1db2-48c6-9c09-b64c23f3f3f0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73287e7f-a9ec-4ccb-bbdb-19c57bb1224c</id>
+      <masked>false</masked>
+      <name>docId</name>
+   </variable>
+</TestCaseEntity>

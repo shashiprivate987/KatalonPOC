@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DMSTC-2955_VerifyCostGroupTermsinSourcingExternalApprovalAPI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a0d1a1e-2d6e-4bdc-b126-5e979b9f350e</testCaseGuid>
+</TestCaseEntity>

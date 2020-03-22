@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SetContractProjectCompactView</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78628cdd-1ef2-4b71-afb6-a9b805097e26</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a5bde55-e448-4620-8e16-95e47400be55</id>
+      <masked>false</masked>
+      <name>projectName</name>
+   </variable>
+</TestCaseEntity>

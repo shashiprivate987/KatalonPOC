@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SetPricingCondtionFeatureToggle</description>
+   <name>UnSetPricingCondtionFROMScaleFeatureToggle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a5bea52-d9b4-4804-a6f2-953ae31f556e</testCaseGuid>
+</TestCaseEntity>

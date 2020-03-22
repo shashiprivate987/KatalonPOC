@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACM-9854_AppendContractFromEventContentFromScale</name>
+   <tag>Formula term having APC enabled</tag>
+   <comment>File Upload with xls file and element and click done once it is uploaded
+Replace Existing contract</comment>
+   <testCaseGuid>74734954-1d39-43b4-a5f8-75fc2b95f716</testCaseGuid>
+   <variable>
+      <defaultValue>'customersupportadmin'</defaultValue>
+      <description></description>
+      <id>e11fdfbe-d9af-4ae8-bc37-41609d698a5e</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'CW_'</defaultValue>
+      <description></description>
+      <id>b07e1f1e-0e92-47fc-ba2c-7dd259a5c363</id>
+      <masked>false</masked>
+      <name>contractName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Files/dms/ContractContentForSourcingToContractContentReplace.xlsx'</defaultValue>
+      <description></description>
+      <id>2032d20e-2039-46cf-9735-073c026fc464</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'contractTemplateForAPC'</defaultValue>
+      <description></description>
+      <id>634a5983-ae67-4300-9f09-87c4103eec52</id>
+      <masked>false</masked>
+      <name>contractTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'EventWithFromScales'</defaultValue>
+      <description></description>
+      <id>d2d3cf8b-0ca8-4fcd-ad05-671196366abf</id>
+      <masked>false</masked>
+      <name>sourcingEvent</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>bbd3c8f2-1a50-48c8-a0db-e4ff1ed3230a</id>
+      <masked>false</masked>
+      <name>eventType</name>
+   </variable>
+   <variable>
+      <defaultValue>'SourcingTemplatewithAPC'</defaultValue>
+      <description></description>
+      <id>ec490a0a-9da1-4371-8f28-f5dac996b0d1</id>
+      <masked>false</masked>
+      <name>rfpEventTemplate</name>
+   </variable>
+   <variable>
+      <defaultValue>'APCEventContentWithFROMScale.xls'</defaultValue>
+      <description></description>
+      <id>beba1db9-3f8a-4a33-9500-210f4929b48e</id>
+      <masked>false</masked>
+      <name>eventContentFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'6'</defaultValue>
+      <description></description>
+      <id>72351a45-1cbb-4b80-a5e0-aa6afecc885d</id>
+      <masked>false</masked>
+      <name>eventEndState</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>9016dcb3-a436-4db8-bc8f-3879ffd1208f</id>
+      <masked>false</masked>
+      <name>numberOfBids</name>
+   </variable>
+   <variable>
+      <defaultValue>'Javatec.com'</defaultValue>
+      <description></description>
+      <id>7296d337-dccf-4fa6-b834-cd8dde262f28</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+</TestCaseEntity>

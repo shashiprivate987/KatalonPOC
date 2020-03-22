@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cwEffectiveDateField</name>
+   <tag></tag>
+   <elementGuidId>bf4b84a2-7f20-4629-abed-7c7a26759cac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@awname = 'EffectiveDate::ContractWorkspaceEditView_EffectiveDate:textFieldAction_1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>awname</name>
+      <type>Main</type>
+      <value>EffectiveDate::ContractWorkspaceEditView_EffectiveDate:textFieldAction_1</value>
+   </webElementProperties>
+</WebElementEntity>

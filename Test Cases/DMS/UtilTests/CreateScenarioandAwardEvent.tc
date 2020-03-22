@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>For RFP event this testcase will create scenario and award supplier</description>
+   <name>CreateScenarioandAwardEvent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7075714d-5944-4b3e-97d3-0d8bc5da4753</testCaseGuid>
+</TestCaseEntity>

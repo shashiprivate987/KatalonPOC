@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_oAuth_Failure</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd322c57-c30d-4725-9800-b1e77fdcc8bb</testCaseGuid>
+</TestCaseEntity>
